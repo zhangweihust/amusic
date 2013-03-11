@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_search_listview_page"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/listview_common_height"
+    android:layout_marginTop="1dip"
+    android:minHeight="@dimen/listview_common_height"
+    android:background="@drawable/screen_list_item_selector"
+    android:orientation="horizontal"
+    android:visibility="gone" >
+
+    <ImageButton
+        android:id="@+id/screen_search_page_previous"
+        android:layout_width="@dimen/search_page_imagebutton_layout_width"
+        android:layout_height="@dimen/search_page_imagebutton_layout_height"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/screen_search_listview_page_previous_selector"
+        android:text="@string/screen_search_previous" />
+
+    <TextView
+        android:id="@+id/screen_search_page_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/screen_search_page_info"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/screen_search_page_next"
+        android:layout_width="@dimen/search_page_imagebutton_layout_width"
+        android:layout_height="@dimen/search_page_imagebutton_layout_height"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/screen_search_listview_page_next_selector"
+        android:text="@string/screen_search_next" />
+
+</RelativeLayout>

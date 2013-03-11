@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amusic.media"
+    android:versionCode="1574"
+    android:versionName="0.9 Beta2" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:configChanges="orientation|keyboardHidden"
+        android:icon="@drawable/amtplayer"
+        android:label="@string/app_name"
+        android:name=".MediaApplication" >
+        <activity
+            android:launchMode="singleTop"
+            android:configChanges="locale"
+            android:name=".AmtMedia"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityNoTitle"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".screens.impl.ScreenLogo" />
+        <activity android:name=".screens.impl.ScreenHelp" />
+        <activity android:name=".screens.impl.ScreenHelpView" />
+        <activity android:name=".screens.impl.ScreenHome" />
+        <activity android:name=".screens.impl.ScreenAudioRoot" />
+        <activity android:name=".screens.impl.ScreenRecordRoot" />
+        <activity android:name=".screens.impl.ScreenKMediaRoot" />
+        <activity android:name=".screens.impl.ScreenSearchRoot" />
+        <activity android:name=".screens.impl.ScreenAudio" />
+        <activity android:name=".screens.impl.ScreenSearch"/>
+        <activity android:name=".screens.impl.ScreenRecord" />
+        <activity android:name=".screens.impl.ScreenKMedia" />
+        <activity android:name=".screens.impl.ScreenAudioPlaylists" />
+        <activity android:name=".screens.impl.ScreenAudioPlaylistEdit" />
+        <activity android:name=".screens.impl.ScreenAudioPlaylistSongs" />
+        <activity android:name=".screens.impl.ScreenAudioAlbumSongs" />
+        <activity android:name=".screens.impl.ScreenAudioSongLyrics" />
+        <activity android:name=".screens.impl.ScreenAudioSongLyricsWaveform" />
+        <activity android:name=".screens.impl.ScreenAudioSongLyricsFullScreen"/>
+        <activity android:name=".screens.impl.ScreenAudioSingerSongs" />
+        <activity android:name=".screens.impl.ScreenAudioSongs" />
+        <activity android:name=".screens.impl.ScreenAudioSingers" />
+        <activity android:name=".screens.impl.ScreenAudioAlbums" />
+        <activity android:name=".screens.impl.ScreenAudioFavorites" />
+        <activity android:name=".screens.impl.ScreenAudioRecentlySongs" />
+        <activity android:name=".screens.impl.ScreenAudioDownloadManager" />
+        <activity android:name=".screens.impl.ScreenSuggestionFeedback" />
+        <activity android:name=".screens.impl.ScreenScan" />
+        <activity android:name=".screens.impl.ScreenScanAddDir" />
+        <activity android:name=".screens.impl.ScreenEqualizer"/>
+        <activity android:name=".screens.impl.ScreenTimingExit"/>  
+        <activity android:name=".screens.impl.ScreenPlayMode" /> 
+        <activity android:name=".screens.impl.ScreenAudioPlayer" />
+        <activity android:name=".screens.impl.ScreenRecordPlayer" 
+            android:screenOrientation="portrait"
+                  android:theme="@style/ActivityNoTitle"/>
+        <activity android:name=".screens.impl.ScreenKMediaPlayer" 
+                  android:screenOrientation="portrait"
+                  android:theme="@style/ActivityNoTitle"/>
+        <activity android:name=".screens.impl.ScreenSearchRoot" />
+        <activity android:name=".screens.impl.ScreenSearch" />
+        <activity android:name=".screens.impl.ScreenSearchSongs" />
+        <activity android:name=".screens.impl.ScreenSearchSingerSongs" />
+        <activity android:name=".screens.impl.ScreenSearchSingers" />
+        <activity android:name=".screens.impl.ScreenSearchCategories" />
+        <activity android:name=".screens.impl.ScreenWebViewSongs" />
+        <activity android:name=".screens.impl.ScreenSearchCategorySongs" />
+        <activity android:name=".screens.impl.ScreenSearchTops" />
+        <activity android:name=".screens.impl.ScreenDownLoad" />
+        <activity android:name=".screens.impl.ScreenVersion" />
+        <activity android:name=".screens.impl.ScreenSkin" />
+        <activity android:name=".screens.impl.ScreenSkinWebView" />
+        <activity android:name=".screens.impl.SoftSetting" />
+        <activity android:name=".screens.impl.ScreenCreateLyric" />
+        <activity android:name=".screens.impl.ScreenLyricSpeed" 
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name=".dialog.DialogDownloadbyWeb" android:theme="@style/playlistsDialog" />
+   
+        <service android:name=".services.impl.CrashReportService" />
+         <service android:name=".services.impl.ServiceManager" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+</manifest>

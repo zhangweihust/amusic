@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="3dip"
+    android:orientation="vertical"
+ >
+
+    <TextView
+        android:id="@+id/song_error_current_song"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:textSize="@dimen/popwindow_item_text_size" >        
+    </TextView>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwinows_line_height"
+        android:background="@drawable/custom_dialog_line" >
+    </TextView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/songerrorinfo_song_error"
+            android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_item_text_size" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/song_error_song_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </CheckBox>
+    </LinearLayout>
+    
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwinows_line_height"
+        android:background="@drawable/custom_dialog_line" >
+    </TextView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/songerrorinfo_accompany_error"
+            android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_item_text_size" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/song_error_accompany_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </CheckBox>
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwinows_line_height"
+        android:background="@drawable/custom_dialog_line" >
+    </TextView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/songerrorinfo_lyrics_error"
+            android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_item_text_size" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/song_error_lyrics_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </CheckBox>
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwinows_line_height"
+        android:background="@drawable/custom_dialog_line" >
+    </TextView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/songerrorinfo_picture_error"
+            android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_item_text_size" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/song_error_picture_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </CheckBox>
+    </LinearLayout>
+
+</LinearLayout>

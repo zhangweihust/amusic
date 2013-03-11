@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/popwindow_item_width"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new" />
+
+        <TextView
+            android:id="@+id/screen_kmedia_song_options_song"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/screen_kmedia_song_options_favorite"
+            style="@style/favoriteCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:focusable="false"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/screen_kmedia_song_options_original"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_kmedia_song_options_original_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_kmedia_song_options_original" />
+
+        <TextView
+            android:id="@+id/screen_kmedia_song_options_line1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <Button
+            android:id="@+id/screen_kmedia_song_options_accompaniment"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_kmedia_song_options_accompaniment_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_kmedia_song_options_accompaniment" />
+
+        <TextView
+            android:id="@+id/screen_kmedia_song_options_line2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <Button
+            android:id="@+id/screen_kmedia_song_options_delete"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_audio_song_options_delete_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_kmedia_song_options_delete" />
+
+        <TextView
+            android:id="@+id/screen_kmedia_song_options_line3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <Button
+            android:id="@+id/screen_kmedia_song_options_back"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_kmedia_song_options_back_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_kmedia_song_options_back" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/screen_kmedia_song_options_line4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" 
+            android:visibility="gone"/>
+
+        <CheckBox 
+            android:id="@+id/screen_kmedia_song_options_save" 
+            style="@style/playlistEditCheckBox" 
+            android:layout_width="wrap_content" 
+            android:layout_height="@dimen/popwindow_item_height" 
+            android:text="@string/screen_kmedia_song_options_save" 
+            android:layout_gravity="left" 
+            android:layout_marginLeft="@dimen/screen_kmedia_CheckBox_layout_marginLeft"
+            android:checked="true"/>
+         <TextView
+            android:id="@+id/screen_kmedia_song_options_line5"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" 
+            android:visibility="gone"/>
+         <Button
+            android:id="@+id/screen_kmedia_song_options_edit_signature"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_record_edit_signature"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_record_player_edit_signature" />
+         <TextView
+            android:id="@+id/screen_kmedia_song_options_line6"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" 
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">爱音乐</string>
+	<string name="screen_top_play_control_playing">正在播放</string>
+	<string name="screen_home_tab_audio">本地音乐</string>
+	<string name="screen_home_tab_record">我的录音</string>
+	<string name="screen_home_tab_search">淘歌乐库</string>
+	<string name="screen_home_tab_kmedia">我要K歌</string>
+	<string name="screen_audio_item_playlists_name">播放列表</string>
+	<string name="screen_audio_item_songs_name">歌曲</string>
+	<string name="screen_audio_item_singers_name">歌手</string>
+	<string name="screen_audio_item_albums_name">专辑</string>
+	<string name="screen_audio_item_favorites_name">收藏</string>
+	<string name="screen_audio_item_recently_songs_name">最近添加</string>
+	<string name="screen_search_category_item_child_name">儿童歌曲</string>
+	<string name="screen_search_category_item_love_name">情歌对唱</string>
+	<string name="screen_search_category_item_europe_name">欧美歌曲</string>
+	<string name="screen_search_category_item_jask_name">日韩歌曲</string>
+	<string name="screen_search_category_item_classic_name">经典歌曲</string>
+	<string name="screen_search_category_item_television_name">影视金曲</string>
+	<string name="screen_search_category_item_hkat_name">港台歌曲</string>
+	<string name="screen_search_category_item_china_name">内地歌曲</string>
+	<string name="screen_search_baidu_content">在百度中搜索</string>
+	<string name="screen_search_easou_content">在宜搜中搜索</string>
+	<string name="screen_search_filter">输入歌名或者歌手每个汉字的首字母</string>
+	<string name="screen_search_song_filter">输入歌名每个汉字的首字母</string>
+	<string name="screen_search_singer_filter">输入歌手每个汉字的首字母</string>
+	<string name="screen_audio_item_sect_unknow">未知</string>
+	<string name="screen_audio_playlist_create">创建列表</string>
+	<string name="screen_audio_playlist_create_name">列表名称:</string>
+	<string name="screen_audio_playlist_create_ok">确定</string>
+	<string name="screen_audio_playlist_create_cancel">取消</string>
+	<string name="screen_audio_playlist_create_title">新建播放列表</string>
+	<string name="screen_audio_playlist_rename">重命名</string>
+	<string name="screen_audio_playlist_rename_name">列表名称:</string>
+	<string name="screen_audio_playlist_rename_ok">确定</string>
+	<string name="screen_audio_playlist_rename_cancel">取消</string>
+	<string name="screen_audio_playlist_rename_title">重命名列表</string>
+	<string name="screen_audio_songs_add_songs">添加歌曲</string>
+	<string name="screen_audio_playlist_edit_ok">添加</string>
+	<string name="screen_audio_playlist_edit_selectall">全选</string>
+	<string name="screen_audio_playlist_edit_cancelall">全不选</string>
+	<string formatted="false" name="screen_search_page_default">0/0页</string>
+	<string formatted="false" name="screen_search_page_info">%s/%s页</string>
+	<string name="screen_home_menu_scanner">扫描歌曲</string>
+	<string name="screen_home_menu_download_manager">下载管理</string>
+	<string name="screen_home_menu_system_settings">系统设置</string>
+	<string name="screen_home_menu_share">分享歌曲</string>
+	<string name="screen_home_menu_equalizer_settings">音效设置</string>
+	<string name="screen_home_menu_song_problem">歌曲报错</string>
+	<string name="screen_home_menu_search">搜索歌词</string>
+	<string name="screen_home_menu_edit">歌词编辑</string>
+	<string name="screen_home_menu_color">歌词颜色</string>
+	<string name="screen_home_menu_delete">删除词图</string>
+	<string name="screen_home_menu_modify">歌词微调</string>
+	<string name="screen_home_menu_lyric_tools">歌词修改</string>
+	<string name="screen_home_menu_skin">更换皮肤</string>
+	<string name="screen_home_menu_exit">退出软件</string>
+	<string name="screen_home_menu_timing">定时关闭</string>
+	<string name="screen_home_menu_mode">播放模式</string>
+	<string name="screen_home_menu_version">版本信息</string>
+	<string name="screen_home_menu_suggestion">意见反馈</string>
+	<string name="screen_home_menu_function">使用帮助</string>
+	<string name="screen_audio_playlist_menu_delete">移除</string>
+	<string name="screen_search_download_from_baidu">百度音乐</string>
+	<string name="screen_search_download_from_sougou">搜狗音乐</string>
+	<string name="screen_audio_songs_addsongs">添加歌曲</string>
+	<string formatted="false" name="screen_search_singers_count">%s 歌星</string>
+	<string formatted="false" name="screen_search_songs_count">%s 歌曲</string>
+	<string formatted="false" name="screen_search_reserve_songs_count">%s 歌曲</string>
+	<string formatted="false" name="screen_search_history_songs_count">%s 歌曲</string>
+    <string formatted="false" name="screen_audio_songs_count">%s 首</string>
+    <string formatted="false" name="screen_audio_next_song">下一首：%s</string>
+	<string name="screen_search_download_ok">下载</string>
+	<string name="screen_search_download_cancel">取消</string>
+	<string name="get_network_failed">请检查您的网络是否可用</string>
+	<string name="no_network">无网络</string>
+	<string name="wifi_unable">WIFI不可用</string>
+	<string name="n_3g_unable">3g网络不可用</string>
+	<string name="screen_help_accompany_head">人声消除技术</string>
+	<string name="screen_help_accompany_body">独有的人声消除技术，原唱伴奏随意切换</string>
+	<string name="screen_help_phone_ktv_head">手机中的KTV</string>
+	<string name="screen_help_phone_ktv_body">手机中的KTV，带上耳麦让您足不出户也能享受KTV的乐趣</string>
+	<string name="screen_help_mass_songs_head">海量歌曲下载</string>
+	<string name="screen_help_mass_songs_body">海量的歌曲一键式下载，唱歌、听歌任您选择</string>
+	<string name="screen_help_verbatim_lyrics_head">逐字定位歌词</string>
+	<string name="screen_help_verbatim_lyrics_body">逐字定位的歌词，给您最好的视听享受</string>
+	<string name="screen_help_easy_search_song_head">轻松搜索歌曲</string>
+	<string name="screen_help_easy_search_song_body">内置数据库让您轻而易举的找歌，给您最佳的用户体验</string>
+	<string name="screen_help_repeat_head">特有复读机制</string>
+	<string name="screen_help_repeat_body">AB复读机制，让听歌、唱歌更加DIY</string>
+	<string name="screen_help_head">史上最强大的\n\n音乐播放器及K歌软件</string>
+	<string name="screen_help_start">开始体验</string>
+    <string name="sd_card_not_enough_space">sd卡容量不足,请及时清理!</string>
+    <string name="sd_card_not_insert_please_insert_for_recording">请插入sd卡，否则无法录音!</string>
+	<string name="screen_search_playing">已选</string>
+	<string name="screen_search_history">已唱</string>
+	<string name="screen_search_keyboard">键盘</string>
+	<string name="screen_search_previous">上页</string>
+	<string name="screen_search_next">下页</string>
+	<string name="screen_audio_playlist_options_addsongs">添加歌曲</string>
+	<string name="screen_audio_playlist_options_addtoplaying">加入正在播放</string>
+	<string name="screen_audio_playlist_options_rename">重命名</string>
+	<string name="screen_audio_playlist_options_play">播放</string>
+	<string name="screen_audio_playlist_options_delete">删除列表</string>
+	<string name="screen_audio_playlist_options_cleanup">清空歌曲</string>
+	<string name="screen_audio_song_options_addto">添加到播放列表</string>
+	<string name="screen_audio_song_options_remove">删除</string>
+	<string name="screen_audio_song_options_ringtones">设为铃声</string>
+	<string name="screen_audio_song_options_attributes">查看歌曲信息</string>
+	<string name="screen_audio_make_lyric">歌词编辑</string>
+	<string name="screen_audio_song_options_attributes_editInfo">编辑歌曲信息</string>
+	<string name="screen_audio_song_options_attributes_song_name">歌曲\t:\t</string>
+	<string name="screen_audio_song_options_attributes_singer_name">歌手\t:\t</string>
+	<string name="screen_audio_song_options_attributes_album_name">专辑\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_duration">时长\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_size">大小\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_year">年代\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_genre">流派\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_position">位置\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_comment">备注\t:\t</string>
+	<string name="screen_audio_song_options_attributes_info">非常抱歉，格式不支持！</string>
+	<string name="screen_audio_song_options_attributes_edit">编辑</string>
+	<string name="screen_audio_song_options_attributes_edit_cancel">取消</string>
+	<string name="screen_audio_song_options_attributes_edit_ok">确定</string>
+	<string name="screen_audio_song_options_delete">删除</string>
+	<string name="screen_audio_album_options_play">播放</string>
+	<string name="screen_audio_album_options_addto_playlist">添加到播放列表</string>
+	<string name="screen_audio_album_options_delete">删除</string>
+	<string name="screen_audio_singer_options_addto_playlist">添加到播放列表</string>
+	<string name="screen_audio_singer_options_play">播放</string>
+	<string name="screen_audio_singer_options_delete">删除</string>
+	<string name="screen_audio_singer_options_seacher">查看歌曲信息</string>
+	<string name="screen_audio_favorite_options_remove">删除</string>
+	<string name="screen_audio_favorite_options_addto">添加到播放列表</string>
+	<string name="screen_audio_favorite_options_play">播放</string>
+	<string name="screen_audio_favorite_options_attributes">查看歌曲信息</string>
+	<string name="screen_kmedia_song_options_original">原唱K歌</string>
+	<string name="screen_kmedia_song_options_accompaniment">伴奏K歌</string>
+	<string name="screen_kmedia_song_options_delete">删除伴奏</string>
+	<string name="screen_kmedia_song_options_back">返回列表</string>
+	<string name="screen_kmedia_song_options_save">保存录音</string>
+	<string name="unknown_aitist">未知歌手-</string>
+	<string name="record_file_seperator">_录音</string>
+	<string name="stop_convert_confirm_ok">确定</string>
+	<string name="stop_convert_confirm_cancel">取消</string>
+	<string name="really_quit_this_k_music">真的退出此次K歌吗?</string>
+	<string name="really_quit_this_k_music_yes">是</string>
+	<string name="really_quit_this_k_music_no">否</string>
+	<string name="screen_audio_recently_options_addto_playlist">添加到播放列表</string>
+	<string name="screen_audio_recently_options_delete">删除</string>
+	<string name="screen_audio_recently_options_attributes">查看歌曲信息</string>
+	<string name="screen_audio_player_original_music">原唱</string>
+	<string name="screen_audio_player_play_music">播放</string>
+	<string name="screen_audio_player_repeat_music">重唱</string>
+	<string name="screen_audio_player_record_music">录音</string>
+	<string name="screen_audio_player_mic_music">麦克风</string>
+	<string name="screen_audio_player_audio_artist_unknown">歌手未知</string>
+	<string name="screen_audio_player_abrepeat_error">B结点必须在A结点的后面</string>
+	<string name="screen_audio_player_no_accompany">您的手机不支持此伴奏音乐格式</string>
+	<string name="screen_audio_player_no_original">本地没有原唱或您的手机不支持这种音乐格式</string>
+	<string name="screen_audio_player_cannot_delete">歌曲正在播放，无法删除此歌曲</string>
+	<string name="screen_audio_player_edit_out_of_range">您输入的长度超出范围</string>
+	<string name="screen_audio_player_delete_song_success">歌曲删除成功</string>
+	<string name="screen_audio_player_is_last_one">已经是最后一首</string>
+	<string name="screen_audio_player_is_error_one">歌曲错误或文件不存在，切换到下一首</string>
+	<string name="screen_music_is_error_one">歌曲错误或文件不存在，无法播放</string>
+	<string name="screen_music_have_no_music">本地歌曲不存在</string>
+	<string name="screen_accompaniment_is_error_one">伴奏文件不存在</string>
+	<string name="screen_audio_player_delete_accompaniment_success">伴奏删除成功</string>
+	<string name="screen_audio_player_mode_toast">请勾选一个模式，或点击取消退出！</string>
+	<string name="screen_audio_player_mode_title">播放模式</string>
+	<string name="screen_audio_player_mode_shuffle">随机播放</string>
+	<string name="screen_audio_player_mode_list_cycle">列表循环</string>
+	<string name="screen_audio_player_mode_order">顺序播放</string>
+	<string name="screen_audio_player_mode_single_repeat">单曲循环</string>
+	<string name="screen_audio_playlists">播放列表</string>
+	<string name="screen_audio_songs">全部歌曲</string>
+	<string name="screen_audio_singers">歌手</string>
+	<string name="screen_audio_favorites">我的最爱</string>
+	<string name="screen_audio_albums">专辑</string>
+	<string name="screen_audio_recently">最近添加</string>
+	<string name="screen_audio_dialog_playlists_title">播放列表</string>
+	<string name="screen_audio_playlists_exist">此列表已存在</string>	
+	<string name="screen_audio_playlists_add_success">歌曲添加成功</string>
+    <string name="screen_no_items">内容为空</string>
+	<string name="screen_menu_userfull">常用</string>
+	<string name="screen_menu_tools">工具</string>
+	<string name="screen_menu_help">帮助</string>
+	<string name="screen_refresh">刷新</string>
+	<string name="screen_download">下载</string>
+	<string name="screen_exit">退出</string>
+	<string name="screen_clear_download">清空记录</string>
+	<string name="screen_search_item_top_title">K歌人气排行榜</string>
+	<string name="screen_search_item_top_description">看看大家喜欢唱什么</string>
+	<string name="screen_search_item_category_title">类别搜索</string>
+	<string name="screen_search_item_category_description">按歌曲类别搜索</string>
+	<string name="screen_search_item_song_title">歌名搜索</string>
+	<string name="screen_search_item_song_description">按歌曲名称首字母搜索</string>
+	<string name="screen_search_item_singer_title">歌星搜索</string>
+	<string name="screen_search_item_singer_description">按歌手姓名首字母搜索</string>
+	<string name="screen_search_tops_title">排行榜</string>
+	<string name="screen_search_categories_title">类别搜索</string>
+	<string name="screen_search_songs_title">歌名搜索</string>
+	<string name="screen_search_singers_title">歌星搜索</string>
+ 	<!-- screen_kmedia_player -->
+   	<string name="screen_kmedia_player_tab_original_music">原唱</string>
+    <string name="screen_kmedia_player_tab_accompany_music">伴奏</string>
+    <string name="screen_kmedia_player_plug_headset">请先插上耳机!</string>
+    <string name="screen_kmedia_player_mic_on">麦克风已开启</string>
+    <string name="screen_kmedia_player_mic_off">麦克风已关闭</string>
+    <string name="screen_kmedia_player_ktv_begin">开始K歌</string>
+    <string name="screen_kmedia_player_ktv_end">结束k歌</string>
+    <!-- screen_record -->
+    <string name="screen_record_delete">删除录音</string>
+    <string name="screen_record">录音</string>
+    <string name="screen_record_delete_really">真的要删除吗?</string>
+    <string name="screen_record_ok">确定</string>
+    <string name="screen_record_cancel">取消</string>
+        <string name="screen_record_delete_success">录音删除成功</string>
+    <string name="screen_record_player_edit_signature">编辑签名</string>
+    <string name="screen_record_player_edit_signature_ok">确定</string>
+    <string name="screen_record_player_edit_signature_cancel">取消</string>
+    <string name="screen_record_player_edit_signature_null_string_not_permitted">个性签名不能为空</string>
+    <string name="screen_record_player_edit_signature_mp3_contained_string_not_permitted">个性签名不允许包含mp3字样</string>
+    <string name="screen_record_player_edit_signature_wav_contained_string_not_permitted">个性签名不允许包含wav字样</string>
+    <string name="play_record_now">现在要播放本次录音吗</string>
+    <!-- custom_dialog -->
+   	<string name="custom_dialog_button_ok">确定</string>
+   	<string name="custom_dialog_button_cancel">取消</string>
+   	<string name="custom_dialog_button_hide">隐藏</string>
+   	<string name="custom_dialog_button_examine">查看</string>
+   	<string name="custom_dialog_button_edit">编辑</string>
+    <string name="custom_dialog_content_save_record">是否保存录音?</string>
+    <!--dialog hide or exit -->
+    <string name="dialog_hide_or_exit_title">真的一定要走吗?</string>
+    <string name="dialog_hide_or_exit_ok">确定</string>
+    <string name="dialog_hide_or_exit_hide">隐藏</string>
+    <string name="dialog_hide_or_exit_cancel">取消</string>
+    <!-- screen_search -->
+    <string name="screen_search_from_baidu_title">为了保证音乐的质量，请用网页上带"zhangmenshiting.baidu"的链接下载！</string>
+    <string name="screen_search_no_name">请输入歌名！</string>
+    <!-- screen_skin.xml -->
+    <string name="screen_skin_top_title">背景换肤</string>
+    <string name="screen_skin_sytle_default">梦境幻觉</string>
+    <string name="screen_skin_style_blue_ocean">蓝色海洋</string>
+    <string name="screen_skin_style_blue_rhyme">沁蓝之韵</string>
+    <string name="screen_skin_style_brilliant_starlight">灿烂星光</string>
+    <string name="screen_skin_style_northern_snow">北国之雪</string>
+    <string name="screen_skin_style_grass_green">绿草青青</string>
+    <string name="screen_skin_style_lighthouse">晚霞灯塔</string>
+    <string name="screen_skin_style_sunshine_coast">阳光海岸</string>
+    <string name="screen_skin_style_space_travel">宇宙旅行</string>
+    <string name="screen_skin_style_sunset_glow">落日霞光</string>
+    <string name="screen_skin_style_dream_shadow">梦幻光影</string>
+    <string name="screen_skin_more">更多皮肤</string>
+    <string name="screen_skin_prompt">温馨提示</string>  
+    <string name="screen_skin_delete_right_now">是否删除该皮肤?</string>   
+    <string name="screen_skin_downloading">正在加载皮肤中</string> 
+    <string name="screen_skin_last_one">已经是最后一页</string> 
+    <!-- screen_version.xml -->
+     <string name="screen_version_top_title">版本信息</string>
+     <string name="screen_version_title">爱音乐&#160;v</string>
+     <string name="screen_version_check_update">检查更新</string>
+     <string name="screen_version_download_update_background">升级包正在后台下载中...</string>
+      <!--dialog timing exit -->
+    <string name="dialog_timing_exit_ok">确定</string>
+    <string name="dialog_timing_exit_cancel">取消</string> 
+    <!--dialog download music by web-->
+      <string name="dialog_download_music_by_web_title">歌曲下载</string>
+      <string name="dialog_download_music_by_web_songname">歌曲：</string>
+      <string name="dialog_download_music_by_web_player">歌手：</string>
+      <string name="dialog_download_music_by_web_ok">确定</string>
+      <string name="dialog_download_music_by_web_cancel">取消</string>
+      <!--dialog save record confirm -->
+      <string name="dialog_save_record_confirm_title">保存录音</string>
+      <string name="dialog_save_record_confirm_text">是否保存本次录音?</string>
+      <string name="dialog_save_record_confirm_type1">mp3</string>
+      <string name="dialog_save_record_confirm_type2">wav</string>
+      <string name="dialog_save_record_confirm_yes">是</string>
+      <string name="dialog_save_record_confirm_no">否</string>
+      <string name="dialog_save_record_confirm_cancel">返回</string>
+      <!--dialog convert pcm process -->
+      <string name="dialog_convert_pcm_process_title">格式转化</string>
+      <string name="dialog_convert_pcm_process_text1">原始大小</string>
+      <string name="dialog_convert_pcm_process_text2">输出大小</string>
+      <string name="dialog_convert_pcm_process_text3">转码中，请稍候...</string>
+      <string name="dialog_convert_pcm_process_button1">直接保存wav格式</string>
+      <string name="dialog_convert_pcm_process_button2">终止转码</string>
+      <string name="dialog_convert_pcm_process_text4">转码已经完成</string>
+      <!--dialog stop convert confirm -->
+      <string name="dialog_stop_convert_confirm_title">温馨提示</string>
+      <string name="dialog_stop_convert_confirm_text">中止转码将导致录音数据丢失，确定中止吗?</string>
+      <string name="dialog_stop_convert_confirm_button1">确定</string>
+      <string name="dialog_stop_convert_confirm_button2">取消</string>
+      <!--dialog downloadbyweb -->
+      <string name="dialog_download_by_web_title">正在下载歌曲文件，请稍候。。。</string>
+      <string name="notmp3_download_by_web_title">您下载的不是mp3格式，本播放器无法播放!</string>
+      <!-- suggestion feedback -->
+	  <string name="screen_suggestion_feedback_bar">意见反馈</string>
+	  <string name="screen_suggestion_feedback_title">反馈内容</string>
+	  <string name="screen_suggestion_feedback_limit">*不少于5字</string>
+	  <string name="screen_suggestion_feedback_notification">请将建议和意见告诉我们，爱音乐有你更精彩！</string>
+	  <string name="screen_suggestion_feedback_QQ">QQ号码</string>
+	  <string name="screen_suggestion_feedback_tel">手机号码</string>
+	  <string name="screen_suggestion_feedback_ok">确定</string>
+	  <string name="screen_suggestion_feedback_cancel">取消</string>
+	  <string name="screen_suggestion_feedback_info1">请将字数控制到5到300字以内，谢谢！</string>
+	  <string name="screen_suggestion_feedback_info2">已保存您的宝贵建议，谢谢！</string>
+	  <string name="screen_suggestion_feedback_info3">已提交您的宝贵建议，谢谢！</string>
+	  	  <!--screen timing exit -->
+	  <string name="screen_timing_exit_title">定时关闭</string>
+      <string name="screen_timing_exit_default">单位:</string> 
+      <string name="screen_timing_exit_info">分钟</string> 
+      <string name="screen_timing_exit_ok">确定</string>
+      <string name="screen_timing_exit_cancel">取消</string>  
+      <string name="screen_timing_exit_toast1">请输入以分钟为单位的有效数字</string>  
+      <string name="screen_timing_exit_toast2">请勾选一个模式，或点击取消退出！</string>  
+      <string name="screen_timing_exit_never">从不</string>
+      <string name="screen_timing_exit_15">15分钟</string>
+      <string name="screen_timing_exit_30">半小时</string>
+      <string name="screen_timing_exit_60">1小时</string>
+      <string name="screen_timing_exit_120">2小时</string>
+      <string name="screen_timing_exit_edittime">自定义时间：</string>
+      <string name="screen_timing_exit_spacetime_default">没有启用睡眠模式</string>
+      <string name="screen_timing_exit_spacetime_before">睡眠模式已启动，还有</string>
+      <string name="screen_timing_exit_spacetime_after">分钟将关闭程序</string>
+      <!-- screen scan -->
+      <string name="screen_scan_title">扫描歌曲</string>
+      <string name="screen_scan_add_scan_dir">添加扫描目录</string>
+      <string name="screen_scan_ignore_tip">不扫描小于%s秒的文件</string>
+      <string name="screen_scan_begin_scan">开始扫描</string>
+      <string name="screen_scan_add_dir">添加目录</string>   
+      <string name="screen_scan_adddir_add_str">添加</string>
+      <string name="screen_scan_adddir_goback_str">返回</string>  
+      <string name="screen_scan_prompt">温馨提示</string>  
+      <string name="screen_scan_right_now">列表中没有歌曲,是否立即添加歌曲?</string>    
+      <string name="screen_scan_ok">确定</string> 
+      <string name="screen_scan_cancel">取消</string> 
+      <string name="screen_scan_preper">准备扫描...</string>
+      <string formatted="false" name="screen_scan_total_songs">一共有%s首,已扫描%s首</string>
+	  <string formatted="false" name="screen_scan_success_songs">已成功添加歌曲:%s首\n被过滤掉的小歌曲文件:%s首</string>
+      <string name="screen_scan_adddir_goback_parent">返回上一级</string>
+      <string name="screen_scan_adddir_amtplayer_tip">程序主目录,需要保留</string>
+      <string name="scan_scan_all_select_str">选择所有</string>
+     <!-- screen_search_download_web_dialog --> 
+       <string name="screen_search_download_web_dialog_title">是否需要保存歌曲文件</string>
+      <string name="screen_search_download_web_dialog_ok">确定</string> 
+      <string name="screen_search_download_web_dialog_cancel">取消</string>  
+     <!-- screen Audio -->
+      <string name="screen_audio_playlists_num">个播放列表</string>
+      <string name="screen_audio_songs_num">首歌曲</string>
+      <string name="screen_audio_singers_num">个歌手</string>
+      <string name="screen_audio_albums_num">张唱片</string>
+      <string name="screen_audio_favourites_num">首最爱</string>
+      <string name="screen_audio_recently_num">首最近添加</string>
+      <!-- screen_help -->
+      <string name="screen_help_title">爱音乐&#160;v</string>
+      <string name="screen_help_tv">随时随地，享受音乐，享受Ｋ歌乐趣！</string>
+      <string name="screen_help_tv0">新手上路</string>
+      <string name="screen_help_tv1"><u>1.本地音乐</u></string>
+      <string name="screen_help_tv2"><u>2.我要K歌</u></string>
+      <string name="screen_help_tv3"><u>3.我的录音</u></string>
+      <string name="screen_help_tv4"><u>4.淘歌乐库</u></string>
+      <string name="screen_help_tv5"><u>5.菜单功能</u></string>
+      <string name="screen_help_tv6">版权声明</string>
+      <string name="screen_help_copyright">\t爱音乐高度重视网络传播中的知识产权保护，遵守中国各项知识产权法律、法规和具有约束力的规范性文件，积极配合遏制盗版。\n\t爱音乐提供在线搜索与链接服务，其内容来自互联网，爱音乐自身不存储任何资源，也不对链接的内容进行编辑、修改。使用该项服务所产生的搜索结果系根据用户输入的关键字以非人工检索方式获得并生成，不保证该第三方网页的正确性、合法性、及时性，亦不代表用户或者爱音乐取得了自动生成的到第三方网页的链接的知识产权。\n\t任何使用爱音乐的播放行为都必须符合以下条件：\n\t1.所有的对音乐、图像、文字和其他内容的搜索与播放均以个人合理使用为目的；\n\t2.所有的对音乐、图像、文字和其他内容的影视和图像的搜索与播放均不得用于商业目的；\n\t根据中国相关法律、法规和规范性文件要求，爱音乐的软件提供者制定了旨在保护知识产权权利人合法权益的措施和步骤，当权利人发现通过爱音乐搜索、链接的内容侵犯其权利时，权利人应事先向爱音乐官方发出书面的“权利通知”，爱音乐官方将根据中国法律法规和政府规范性文件采取措施移除相关内容或断开相关链接。\n\n\t具体措施和步骤如下： \n\t权利通知\n\t任何个人或单位如果同时符合以下两个条件：\n\t1.权利人的合法权利被第三方网站侵犯；\n\t2.爱音乐以自动检索方式而链接到第三方网站的内容侵犯了上述权利人的合法权利。\n\t上述个人或单位可以以书面（传真或邮寄信件）的方式向爱音乐提交权利通知。权利人必须在该权利通知落款处亲笔签名，如果权利人是依法成立的机构或组织，请加盖公章。\n\t根据相关法律规定，权利通知必须包含如下资料：\n\t1.权利人的身份证明，至少应该包括身份证或护照复印件（对自然人）或组织依法登记的登记证明复印件（对企业等组织）。权利人的具体联系信息，至少应该包括姓名或名称、通信地址、电话号码、传真 和电子邮件。\n\t2.权利人委托他人代为行使权利的，被委托人除出具上述资料外，还应同时提供由权利人出具的《授权委托书》。\n\t3.著作权和/或其他知识产权的权属证明；\n\t4.侵权情况证明，包括被侵犯了的知识产权的具体描述，侵犯了该知识产权的页面信息及第三方页面的具体网址清单等。\n\t5.权利通知提交者保证如果权利通知的陈述失实，将承担由此造成的全部法律责任（包括但不限于赔偿各项必要费用及律师费）\n\t爱音乐官方在收到并审核上述通知及材料后，对符合要求的通知，将根据中国法律法规和政府规范性文件要求，依法采取包括移除在内的相应的侵权防范措施，保护权利人的合法权利。</string>
+      <string name="screen_help_view_content1">－提供多种歌曲陈列方式，方便您快速定位歌曲\n\n－提供扩展按钮，方便您编辑本地歌曲\n\n－提供多种播放模式供您选择\n\n－提供AB复读功能\n\n－可以自动下载歌星图片和逐字定位的歌词\n\n－歌曲播放时，选择隐藏本应用，可以为您展示桌面歌词</string>
+      <string name="screen_help_view_content2">－提供原唱K歌和伴唱K歌两种K歌模式\n\n－K歌过程中，原唱、伴奏可以随意切换\n\n－歌词同步显示、逐字定位\n\n－提供实时调节麦克风音量的功能\n\n－44100HZ采样率，为您提供超高录音品质\n\n－提供AB复唱功能。方便您重点学习某段歌曲，却不影响录音的完整性和连贯性\n\n－内置wav->mp3转码工具，为您节约更多存储空间</string>
+      <string name="screen_help_view_content3">－提供播放录音功能\n\n－提供AB复读功能，方便您细细品味自己的声音</string>
+      <string name="screen_help_view_content4">－提供原唱、伴唱下载\n\n－提供类别搜索、歌星搜索、歌名搜索三种搜索方式\n\n－在歌星和歌名搜索中输入汉字拼音首字母或是英文全拼，即能快速定位</string>
+      <string name="screen_help_view_content5">－扫描歌曲，方便您随时增加更多本地音乐\n\n－定时关闭，可以预设时间让程序自动关闭\n\n－播放模式，不用进入播放界面即可随意切换播放模式\n\n－下载管理，随时查看歌曲的下载状态，更提供暂停下载、取消下载、恢复下载、编辑下载记录等功能\n\n－版本信息，提供检查更新及升级的功能\n\n－意见反馈，期待您的意见或建议</string>
+        <string name="screen_audio_download_cancel">取消下载</string>
+		<string name="screen_audio_download_continue">恢复下载</string>
+		<string name="screen_audio_download_pause">暂停下载</string>
+		<string name="screen_audio_download_delete">删除任务</string>
+		<string name="screen_audio_downloading">下载中</string>
+		<string name="screen_audio_download_waiting">等待中</string>
+		<string name="screen_audio_download_starting">启动中</string>
+		<string name="screen_audio_download_paused">下载暂停</string>
+		<string name="screen_audio_download_finished">下载完成</string>
+		<string name="screen_audio_download_unknow_size">未知大小</string>
+		<string name="screen_audio_download_type_orginal">原唱</string>
+		<string name="screen_audio_download_type_accompany">伴奏</string>
+		<string name="screen_audio_download_orginal_finished">原唱完成</string>
+		<string name="screen_audio_download_all_finished">全部完成</string>
+		<string name="screen_audio_download_not_started">未下载</string>
+		<string name="screen_audio_download_if_download_accompany">同时下载伴奏用于K歌</string>
+		<string name="screen_audio_download_onekey_prompt">一键下载歌曲</string>
+		<string name="screen_audio_download_cannot_download_accompany">此歌曲不支持伴奏</string>
+		<string name="screen_audio_download_if_ktv">让我们开始K歌吧?</string>
+		<string name="screen_audio_download_accompany">下载伴奏</string>
+		<string name="screen_audio_download_play_orginal">播放原唱</string>
+		<string name="screen_audio_download_go_back">返回</string>
+		<string name="screen_audio_download_in">已在下载列表</string>
+		<string name="screen_audio_download_fail">下载失败</string>
+		<string name="screen_audio_download_lyric_fail">歌词下载失败</string>
+		<string name="screen_download_tab_unfinished">正在下载</string>
+		<string name="screen_download_tab_finished">下载完成</string>
+	 <!-- screen_update -->
+	    <string name="screen_update_download_finished">更新包下载完成</string>
+	    <string name="screen_update_download_error">更新包下载失败</string>
+		<string name="screen_update_click_to_install">下载完成，点击我就可以安装</string>
+		<string name="screen_update_not_need_update">已是最新版,无需更新!</string>
+		<string name="screen_update_have_update">爱音乐有新版本啦!</string>
+		<string name="screen_update_select_to_install">新版本已经下载成功，请选择更新吧!</string>
+		<string name="screen_update_install_now">立即更新</string>
+		<string name="screen_update_install_later">暂不更新</string>
+		<string name="screen_update_version">更新版本:</string>
+		<string name="screen_update_version_size">版本大小:</string>
+		<string name="screen_update_version_info">更新内容:</string>
+		<string name="screen_update_ok">确定</string>
+		<string name="screen_update_error">更新包签名不一致，请先卸载程序以后再安装</string>
+	<!-- screen_default_lyric_view -->
+	    <string name="screen_default_lyric_view">好音质，爱音乐</string>
+	    <string name="lyric_download_error"><u>未找到歌词，点击下载</u></string>
+	    <string name="close_desktop_lyric_title">关闭桌面歌词</string>
+	    <string name="close_desktop_lyric_info">永久关闭桌面歌词吗</string>
+	    <!-- screen_create_playlist -->
+	    <string name="screen_create_new_playlist">创建播放列表</string>
+		<string name="screen_create_new_playlist_add">添加</string>
+		<string name="screen_create_new_playlist_rename">重命名列表</string>
+		<string name="screen_create_new_playlist_exist">歌曲已经存在该列表中</string>
+		<string name="screen_create_new_addto_success">歌曲成功添加到列表中</string>
+		<string name="screen_create_new_playlist_ok">确定</string>
+		<string name="screen_create_new_playlist_cancel">取消</string>
+		    <!-- screen_delete_dialog -->
+	    <string name="screen_delete_dialog_msg">真的要删除吗?</string>
+		<string name="screen_delete_dialog_ok">确定</string>
+		<string name="screen_delete_dialog_cancel">取消</string>
+		<string name="screen_delete_dialog">移除</string>
+		<string name="screen_delete_dialog_file">同时删除本地文件</string>
+		    <!-- screen_check_SD -->
+	    <string name="screen_check_sd_title">温馨提示</string>
+		<string name="screen_check_sd_ok">确定</string>
+		<string name="screen_check_sd_msg">请插入sd卡，否则无法使用本产品，点击确定退出</string>
+		<!-- screen_version-->
+		<string name="screen_version_info">本版本适用于Android2.1及以上固件，如在其它手机系统上使用本软件，对于出现的任何问题，爱音乐团队不承担任何责任。本软件是由爱音乐团队自主研发，非经爱音乐团队授权开发并发布的其它任何由本软件衍生的软件均属非法，下载、安装、使用此类软件将可能导致不可预知的风险， 由此产生的法律责任与纠纷一概与爱音乐团队无关。</string>
+		<string name="screen_version_connect">客服电话： 027-87491770  \n商务邮箱： player_bz@163.com \n客服邮箱： player_support@163.com</string>
+		<string name="screen_version_copyright">爱音乐团队所有</string>
+		<!-- screen_soft_setting-->
+		<string name="soft_parameters_setting">系统设置</string>
+		<string name="lyric_and_pictrue_setting">图片与歌词下载</string>
+		<string name="pictrue_download_setting">图片下载设置</string>
+		<string name="lyric_download_setting">歌词下载设置</string>
+		<string name="pictrue_forbid_download">禁止下载</string>
+		<string name="pictrue_always_download">始终下载</string>
+		<string name="pictrue_wifi_download">使用WIFI时下载</string>
+		<string name="lyric_forbid_download">禁止下载</string>
+		<string name="lyric_always_download">始终下载</string>
+		<string name="lyric_wifi_download">使用WIFI时下载</string>
+		<string name="lashing_controll_title">甩动切歌</string>
+		<string name="lashing_controll_summary">左右甩动手机切换歌曲</string>
+		<string name="special_lashing_controll_title">左右甩动切歌</string>
+		<string name="special_lashing_controll_summary">向左甩下一曲，向右甩上一曲</string>
+		<string name="sensitivity_lashing_controll_title">甩动灵敏度</string>
+		<string name="sensitivity_lashing_controll_summary">调节甩歌的灵敏度</string>
+		<string name="desktop_lyric_setting">桌面歌词显示</string>
+		<string name="desktop_lyric_font_color_setting">记忆桌面歌词设置</string>
+		<string name="skin_fontColor_title">字体颜色设置</string>
+		<string name="skin_fontColor_summary">高亮字体和普通字体颜色的设置</string>
+		<string name="download_setting">下载设置</string>
+		<string name="accompany_download_title">伴奏下载</string>
+		<string name="accompany_download_summary">自动下载伴奏</string>
+		<string name="record_setting">录音设置</string>
+		<string name="start_record_title">保存录音</string>
+		<string name="start_record_summary">自动保存录音</string>
+		<string name="sound_sync_title">人声同步输出</string>
+		<string name="sound_sync_summary">声音输出时同时播放演唱者的声音</string>
+		<string name="sound_gain_control_title">人声增益调节</string>
+		<string name="sound_gain_control_summary">演唱者声音扩大倍数的调节</string>
+		<string name="status_bar_title">状态栏显示应用程序图标</string>
+		<string name="other_setting">其他设置</string>
+		<string name="auto_update_title">自动更新</string>
+		<string name="auto_update_summary">启动自动检查更新</string>
+		<string name="net_setting_title">网络设置</string>
+		<string name="net_setting_summary">设置系统网络连接</string>
+		<string name="general_setting">常规设置</string>
+		<string name="advanced_setting">高级设置</string>
+		<string name="music_pause_controll_title">拔出耳机时暂停</string>
+		<string name="music_pause_controll_summary">拔出耳机时，正在播放的音乐暂停</string>
+		<string name="prompt_if_no_record_indatabase">列表中没有这首歌,请先扫描歌曲</string>
+		<string name="lyric_foregroundColor">前景颜色</string>
+		<string name="lyric_backgroundColor">背景颜色</string>
+		<string name="foregroundColor">高亮颜色</string>
+		<string name="backgroundColor">普通颜色</string>
+		<!-- screen equalizer setting-->
+		<string name="screen_equalizer_settings_title">音效设置</string>		
+		<string name="normal">普通</string>
+		<string name="classical">古典</string>
+		<string name="dance">舞曲</string>
+	    <string name="balance">平淡</string>
+	    <string name="folk">乡村</string>
+	    <string name="heavy_metal">重金属</string>
+	    <string name="hip_hop">嘻哈</string>
+	    <string name="jazz">爵士</string>
+	    <string name="pop">流行</string>
+	    <string name="rock">摇滚</string>
+	    <string name="custom">自定义</string>
+	    <string name="eq_setting">音效设置</string>
+		<string name="reverb_setting">混响设置</string>
+		<string name="large_hall">大音乐厅</string>
+		<string name="large_room">大演唱会</string>
+		<string name="medium_hall">中等音乐厅</string>
+		<string name="medium_room">中等房间</string>
+		<string name="none">无混响效果</string>
+		<string name="plate">普通混响效果</string>
+		<string name="small_room">小房间模式</string>
+		<!-- delete dialog -->
+		<string name="delete_propt">温馨提示</string>
+		<string name="delete_sure_or_not">真的要删除吗?</string>
+		<string name="delete_sure">确定</string>
+		<string name="delete_cancel">取消</string>
+		
+		<!-- public dialog -->
+		<string name="dialog_ok">确定</string>
+		<string name="dialog_cancel">取消</string>
+		
+		<!-- kmedia content empty -->
+		<string name="kmedia_content_empty_info0">K歌列表是空的，</string>
+		<string name="kmedia_content_empty_info1">赶快点击</string>
+		<string name="kmedia_content_empty_info2">“淘歌乐库”</string>
+		<string name="kmedia_content_empty_info3">开始淘歌K歌吧！</string>
+		
+		<!-- record content empty -->
+	    <string name="record_content_empty_info0">录音列表是空的，</string>
+		<string name="record_content_empty_info1">赶快点击</string>
+		<string name="record_content_empty_info2">“我要Ｋ歌”</string>
+		<string name="record_content_empty_info3">开始录制歌曲吧！</string>
+		
+		<!-- search bar empty -->
+		<string name="search_bar_empty_info0">请在搜索条输入，</string>
+		<string name="search_bar_empty_info1">歌名的</string>
+		<string name="search_bar_empty_info2">“拼音首字母”</string>
+		<string name="search_bar_empty_info3">开始下载歌曲吧！</string>
+		<string name="search_bar_empty_info4">歌手的</string>
+		
+			
+		<!-- lyric choose dialog -->
+		<string name="lyric_choose_please" >请选择合适的歌词</string>
+		<string name="lyric_download_tips1">禁止下载歌词，请更改系统设置</string>
+		<string name="lyric_download_tips2">wifi未连接，请连接wifi</string>
+		
+		<!-- song error info -->
+		<string name="songerrorinfo_song_error">歌曲错误</string>
+		<string name="songerrorinfo_accompany_error">伴奏错误</string>
+		<string name="songerrorinfo_lyrics_error">歌词错误</string>
+		<string name="songerrorinfo_picture_error">图片错误</string>
+		<string name="songerrorinfo_current_song">当前歌曲 : </string>
+		<string name="songerrorinfo_dialog_title">错误列表</string>
+		<string name="songerrorinfo_sendsuccess_prompt">您提交的信息已成功发送至服务器!</string>
+		<string name="songerrorinfo_sendfailed_prompt">发送失败,请检查您的网络情况,您提交的信息已已保存到本地文件,下次启动本程序时将会自动向服务器提交!</string>
+		
+		<!-- notification -->
+		<string name="notification_title">点击进入爱音乐</string>
+		<string name="notification_current_song">正在播放:</string>
+		
+		<!-- dialog check signature -->
+		<string name="dialog_check_signature_title">检查新安装包</string>
+		<string name="dialog_check_signature_checking">检查中，请稍候</string>
+		<string name="dialog_check_sinature_not_match">签名不一致，请卸载旧程序后，重新安装本程序，安装包位置：sd卡上aMusic/package/</string>
+		<string name="dialog_check_sinature_not_match_title">签名不一致,请卸载程序后,重新安装</string>
+		<string name="dialog_check_sinature_not_match_info">安装包位置：sd卡上aMusic/package/</string>
+		<string name="dialog_check_signature_ok">确定</string>
+		<string name="dialog_check_signature_cancel">取消</string>
+		
+		<!-- ExtAudioRecorder -->
+		<string name="extaudiorecorder_info">对不起，此设备不支持录音</string>
+		
+		<!-- Song info edit -->
+		<string name="song_info_edit_not_support">对不起，不支持这个格式的信息编辑</string>
+		
+		<!-- menu share -->
+		<string name="menu_share_audio">我正在用爱音乐听:\t</string>
+		<string name="menu_share_kmedia">我正在用爱音乐唱:\t</string>
+		<string name="menu_share_record">我正在用爱音乐听我自己录的歌:\t</string>
+		<string name="menu_share_others">我正在用爱音乐</string>
+		<string name="menu_share_info">, 很高兴推荐给你!</string>
+		<!-- convert finished -->
+		<string name="convert_finished">转码完毕!</string>
+<!-- dialog_editor_lyric -->
+		<string name="editor_lyric_prompt">温馨提示</string>
+		<string name="editor_lyric_info">现在开始编辑歌词么？</string>
+		<string name="editor_lyric_text">step1.编辑歌词</string>
+		<string name="editor_lyric_time">step2.定位歌词</string>
+		<string name="get_lyric_from_web">从网络获取歌词</string>
+		<string name="new_make_lyric">使用本地歌词</string>
+		<string name="editor_lyric_ok">确定</string>
+		<string name="editor_lyric_cancel">取消</string>
+		<string name="modify_lyric_error">无法继续向上调整歌词</string>
+		<string name="lyric_is_downloading">正在下载歌词文件，请稍候</string>
+		<string name="lyric_download_fail">歌词下载失败，请手动编辑</string>
+	    <string name="lyric_songname_null">请输入歌名！</string>
+		
+		<!-- screen_create_lyric -->
+		<string name="screen_create_lyric_title">歌词制作</string>
+		<string name="screen_lyric_speed_title">歌词速率定位</string>
+		<string name="screen_lyric_speed_modify">是否保存歌词定位？</string>
+		<string name="screen_lyric_speed_quit">歌词制作未完成，是否退出？</string>
+		<string name="screen_lyric_speed_modify_yes">是</string>
+		<string name="screen_lyric_speed_modify_no">否</string>
+		<string name="screen_create_lyric_hint">请输入文字，创建歌词！</string>
+		<string name="screen_create_lyric_ok">确定</string>
+		<string name="screen_create_lyric_cancel">取消</string>
+		<string name="screen_create_lyric_ok_info">保存歌词编辑，并定位歌词？</string>
+		<string name="screen_create_lyric_cancel_info">确定退出么？</string>
+		<string name="screen_create_lyric_null">歌词内容为空，请输入歌词内容！</string>
+		<string name="screen_create_lyric_native_null">没有歌词文件，请先编辑歌词！</string>
+		<string name="screen_lyric_speed_upload">是否上传歌词?</string>
+		<string name="screen_lyric_speed_upload_error">歌词上传失败,重新上传</string>
+		<string name="screen_lyric_speed_upload_successed">歌词上传完成</string>
+		<string name="screen_lyric_speed_make_over">歌词制作完成，点击返回键保存歌词</string>
+		<string name="screen_audio_cannot_play">歌曲无法播放</string>
+		<string name="screen_audio_lyric_maker_name">歌词制作者：</string>
+		<string name="screen_lyric_make_help">使用方法：\n\t1.点击方式： 根据音乐节奏，点击对应的每一个字（可以跳字），定位每个字的时间；\n\t2.滑动方式： 对于快节奏歌曲，可以根据音乐节奏在歌词上滑动，从而定位每个字的时间；\n注意:\n\t-在一行歌词未点击完成时不准点击下一行的歌词\n\t-每一句歌词后都添加了一个结束符，必须点击这个结束符，标志这一句歌词已经定位完成。\n</string>
+</resources>

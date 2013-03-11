@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_kmdia_song_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/screen_list_item_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/listview_common_height"
+    android:orientation="horizontal"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip" >
+
+     <com.amusic.media.view.RemoteImageView
+        android:id="@+id/screen_kmedia_singer_icon"
+        android:layout_width="@dimen/listview_item_ImageView_layout_width"
+        android:layout_height="@dimen/listview_item_ImageView_layout_height"
+        android:layout_weight="0" />
+     <TextView
+        android:id="@+id/screen_kmedia_song_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="@dimen/listview_item_title_textSize" />
+      <TextView
+        android:id="@+id/screen_kmedia_song_singer"
+        android:layout_width="@dimen/listview_item_info_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="@dimen/listview_item_title_textSize" />
+        
+</LinearLayout>

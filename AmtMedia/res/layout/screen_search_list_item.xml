@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_search_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/listview_common_height"
+    android:background="@drawable/screen_list_item_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/screen_search_list_item_above"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/search_list_item_textview_paddingLeft"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/search_list_item_textview_textsize" />
+
+        <TextView
+            android:id="@+id/screen_search_list_item_below"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/search_list_item_textview_paddingLeft"
+            android:singleLine="true"
+            android:textSize="@dimen/search_list_item_textview_textsize2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/screen_search_list_item_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginRight="9dp"
+        android:textSize="@dimen/search_list_status_textview_textsize" />
+
+</LinearLayout>

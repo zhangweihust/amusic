@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new" />
+
+        <TextView
+            android:id="@+id/screen_audio_playlist_song_options_song"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/screen_audio_playlist_song_options_favorite"
+            style="@style/favoriteCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/screen_audio_playlist_song_options_addto"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_audio_song_options_addto_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_audio_song_options_addto" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <Button
+            android:id="@+id/screen_audio_playlist_song_options_remove"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_audio_song_options_delete_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_audio_song_options_remove" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <Button
+            android:id="@+id/screen_audio_playlist_song_options_attributes"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_audio_song_options_attributes_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_audio_song_options_attributes" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <Button
+            android:id="@+id/screen_audio_playlist_song_options_makeLyric"
+            style="@style/CustomPopWindow"
+            android:drawableLeft="@drawable/screen_audio_make_lyric_icon"
+            android:drawablePadding="@dimen/popwindow_drawable_padding"
+            android:text="@string/screen_audio_make_lyric"/>
+    </LinearLayout>
+
+</LinearLayout>

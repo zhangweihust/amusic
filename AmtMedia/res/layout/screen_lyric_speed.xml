@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/relativeLayout01_layout_height"
+        android:background="@drawable/screen_top_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/screen_top_play_control_back"
+            android:layout_width="@dimen/screen_top_play_control_back_layout_width"
+            android:layout_height="@dimen/screen_top_play_control_back_layout_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/screen_top_play_control_back_layout_marginLeft"
+            android:layout_weight="0"
+            android:background="@drawable/screen_go_back_selector" />
+
+        <TextView
+            android:id="@+id/screen_top_play_control_activityTitle"
+            android:layout_width="@dimen/screen_top_play_control_activityTitle_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="@string/screen_lyric_speed_title"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/screen_top_play_control_activityTitle_textSize" />
+
+        <LinearLayout
+            android:id="@+id/screen_edit_lyric_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/screen_top_play_control_go_to_player_layout_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/screen_top_play_control_go_to_player_layout_marginRight"
+            android:layout_weight="0"
+            android:focusable="false"
+            android:gravity="center" >
+            
+            <Button
+                android:id="@+id/screen_edit_lyric_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/screen_edit_lyric_start_selector" />
+
+            <Button
+                android:id="@+id/screen_edit_lyric_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lyric_speed_button_marginLeft"
+                android:background="@drawable/screen_edit_lyric_continu_selector" />
+
+            <Button
+                android:id="@+id/screen_edit_lyric_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lyric_speed_button_marginLeft"
+                android:background="@drawable/screen_edit_lyric_help_selector" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.amusic.media.view.LyricsMakeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" 
+        android:descendantFocusability="blocksDescendants" >
+
+        <LinearLayout
+            android:layout_width="@dimen/lyric_speed_layout_width"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:gravity="center" >
+
+            <com.amusic.media.view.VerticalSeekBar2
+                android:id="@+id/screen_seekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lyric_speed_layout_height"
+                android:maxHeight="4px"
+                android:minHeight="4px"
+                android:scrollbarStyle="outsideOverlay"
+                android:thumb="@drawable/screen_audio_player_seebar_thumb"
+                android:thumbOffset="@dimen/audio_seekbar_thumbOffset" />
+
+            <TextView
+                android:id="@+id/screen_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0s" 
+                />
+        </LinearLayout>
+
+        <com.amusic.media.lyric.render.LyricMakerView
+            android:id="@+id/screen_lyrics_maker"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#002B2B2B" />
+    </com.amusic.media.view.LyricsMakeLayout>
+
+</LinearLayout>

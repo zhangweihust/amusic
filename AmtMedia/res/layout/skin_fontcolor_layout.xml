@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/skin_fontColor_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/linearLayout_lev1_layout_height"
+    android:background="@color/screen_menu_bg"
+    android:minHeight="@dimen/linearLayout_lev1_layout_height"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/linearLayout_lev1_layout_paddingTop" >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/linearLayout_lev2_layout_height"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/foregroundColor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/linearLayout_lev3_textSize" 
+                android:text="@string/foregroundColor"/>
+
+            <ImageView
+                android:id="@+id/foregroundColor_img"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/linearLayout_lev3_ImageView_layout_height"
+                android:layout_marginTop="@dimen/linearLayout_lev3_ImageView_layout_marginTop"
+                android:src="@color/screen_menu_underscore"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/backgroundColor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/linearLayout_lev3_textSize" 
+                android:text="@string/backgroundColor"/>
+
+            <ImageView
+                android:id="@+id/backgroundColor_img"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/linearLayout_lev3_ImageView_layout_height"
+                android:layout_marginTop="@dimen/linearLayout_lev3_ImageView_layout_marginTop"
+                android:src="@color/screen_menu_underscore"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/foregroundColor_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+         android:listSelector="@android:color/transparent"
+        android:horizontalSpacing="@dimen/linearLayout_lev1_GridView_horizontalSpacing"
+        android:numColumns="4"
+        android:padding="@dimen/linearLayout_lev1_GridView_padding"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/linearLayout_lev1_GridView_verticalSpacing" >
+    </GridView>
+    
+        <GridView
+        android:id="@+id/backgroundColor_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+         android:listSelector="@android:color/transparent"
+        android:horizontalSpacing="@dimen/linearLayout_lev1_GridView_horizontalSpacing"
+        android:numColumns="4"
+        android:padding="@dimen/linearLayout_lev1_GridView_padding"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/linearLayout_lev1_GridView_verticalSpacing" 
+        android:visibility="gone">
+    </GridView>
+
+</LinearLayout>

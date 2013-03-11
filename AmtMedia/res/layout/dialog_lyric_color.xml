@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_confirm_save_record"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+            android:text="@string/editor_lyric_prompt"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_title_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/font_color_popwindow_item_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+<LinearLayout
+    android:id="@+id/lyric_fontColor_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/screen_menu_bg"
+    android:minHeight="@dimen/linearLayout_lev1_layout_height"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/linearLayout_lev1_layout_paddingTop" >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/linearLayout_lev2_layout_height"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/foregroundColor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/linearLayout_lev3_textSize" 
+                android:text="@string/lyric_foregroundColor" />
+
+            <ImageView
+                android:id="@+id/foregroundColor_img"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/linearLayout_lev3_ImageView_layout_height"
+                android:layout_marginTop="@dimen/linearLayout_lev3_ImageView_layout_marginTop"
+                android:src="@color/screen_menu_underscore"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/backgroundColor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/linearLayout_lev3_textSize" 
+                android:text="@string/lyric_backgroundColor"/>
+
+            <ImageView
+                android:id="@+id/backgroundColor_img"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/linearLayout_lev3_ImageView_layout_height"
+                android:layout_marginTop="@dimen/linearLayout_lev3_ImageView_layout_marginTop"
+                android:src="@color/screen_menu_underscore"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/foregroundColor_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:horizontalSpacing="@dimen/linearLayout_lev1_GridView_horizontalSpacing"
+        android:numColumns="4"
+        android:padding="@dimen/linearLayout_lev1_GridView_padding"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/linearLayout_lev1_GridView_verticalSpacing" >
+    </GridView>
+    
+        <GridView
+        android:id="@+id/backgroundColor_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+         android:listSelector="@android:color/transparent"
+        android:horizontalSpacing="@dimen/linearLayout_lev1_GridView_horizontalSpacing"
+        android:numColumns="4"
+        android:padding="@dimen/linearLayout_lev1_GridView_padding"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/linearLayout_lev1_GridView_verticalSpacing" 
+        android:visibility="gone">
+    </GridView>
+
+</LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+            android:background="@drawable/custom_dialog_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/popwindow_item_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/lyric_color_ok"
+                android:layout_width="@dimen/popwindow_btn_width"
+                android:layout_height="@dimen/popwindow_btn_height"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:layout_weight="1"
+                android:background="@drawable/pop_audio_button_selector"
+                android:singleLine="true"
+                android:text="@string/editor_lyric_ok"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/lyric_color_cancel"
+                android:layout_width="@dimen/popwindow_btn_width"
+                android:layout_height="@dimen/popwindow_btn_height"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:layout_weight="1"
+                android:background="@drawable/pop_audio_button_selector"
+                android:singleLine="true"
+                android:text="@string/editor_lyric_cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

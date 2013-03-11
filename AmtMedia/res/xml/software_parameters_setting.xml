@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/general_setting">
+		<CheckBoxPreference android:key="music_pause_controll_value"
+			android:title="@string/music_pause_controll_title" android:summary="@string/music_pause_controll_summary"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		<CheckBoxPreference android:key="accompany_download_value"
+			android:title="@string/accompany_download_title" android:summary="@string/accompany_download_summary"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/lyric_and_pictrue_setting">
+		<ListPreference android:title="@string/pictrue_download_setting"
+			android:entries="@array/pictrue_download" android:entryValues="@array/pictrue_download_value"
+			android:dialogTitle="@string/pictrue_download_setting"
+			android:defaultValue="2" android:key="pictrue_download_value">
+		</ListPreference>
+		<ListPreference android:title="@string/lyric_download_setting"
+			android:entries="@array/lyric_download" android:entryValues="@array/lyric_download_value"
+			android:dialogTitle="@string/lyric_download_setting"
+			android:defaultValue="2" android:key="lyric_download_value">
+		</ListPreference>
+
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/advanced_setting">
+	    
+	   <CheckBoxPreference android:key="lashing_controll_value"
+			android:title="@string/lashing_controll_title"
+			android:summary="@string/lashing_controll_summary" android:defaultValue="false">
+		</CheckBoxPreference>
+		
+	    <CheckBoxPreference android:key="special_lashing_controll_value"
+			android:title="@string/special_lashing_controll_title"
+			android:summary="@string/special_lashing_controll_summary" android:defaultValue="false"
+			android:dependency="lashing_controll_value">
+		</CheckBoxPreference>
+		
+	   <com.amusic.media.dialog.SwingMusicSeekBarPreference android:key="sensitivity_lashing_controll_value"
+			android:title="@string/sensitivity_lashing_controll_title"
+			android:summary="@string/sensitivity_lashing_controll_summary"
+			android:dependency="lashing_controll_value" android:dialogLayout="@layout/lashing">
+		</com.amusic.media.dialog.SwingMusicSeekBarPreference>
+		
+		<CheckBoxPreference android:key="desktop_lyric_value"
+			android:title="@string/desktop_lyric_setting" android:defaultValue="false">
+		</CheckBoxPreference>
+
+		<CheckBoxPreference android:key="desktop_lyric_font_color_value"
+			android:title="@string/desktop_lyric_font_color_setting"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		
+		<com.amusic.media.dialog.SkinFontColorPreference android:key="skin_fontColor_value"
+			android:title="@string/skin_fontColor_title" android:summary="@string/skin_fontColor_summary"
+			android:dialogLayout="@layout/skin_fontcolor_layout">
+		</com.amusic.media.dialog.SkinFontColorPreference>
+
+		<CheckBoxPreference android:key="start_record_value"
+			android:title="@string/start_record_title" android:summary="@string/start_record_summary"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		
+		<CheckBoxPreference android:key="sound_sync_value"
+			android:title="@string/sound_sync_title" android:summary="@string/sound_sync_summary"
+			android:defaultValue="false">
+		</CheckBoxPreference>
+		
+		<com.amusic.media.dialog.GainControlSeekBarPreference android:key="sound_gain_control_value"
+			android:title="@string/sound_gain_control_title" android:summary="@string/sound_gain_control_summary"
+			android:defaultValue="false" android:dependency="sound_sync_value" android:dialogLayout="@layout/lashing">
+		</com.amusic.media.dialog.GainControlSeekBarPreference>
+		
+	</PreferenceCategory>
+
+
+	<PreferenceCategory android:title="@string/other_setting">
+
+		<CheckBoxPreference android:key="auto_update_value"
+			android:title="@string/auto_update_title" android:summary="@string/auto_update_summary"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		
+	</PreferenceCategory>
+
+</PreferenceScreen>
+
+<!-- 
+		<PreferenceScreen android:key="net_setting_value"
+			android:title="@string/net_setting_title" android:summary="@string/net_setting_summary">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="com.android.settings" android:targetClass="com.android.settings.WirelessSettings" />
+
+		</PreferenceScreen>
+		
+		
+		
+		<CheckBoxPreference android:key="status_bar_value"
+			android:title="@string/status_bar_title"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+ -->

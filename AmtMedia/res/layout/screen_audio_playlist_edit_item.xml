@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_audio_playlist_edit_item"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/listview_common_height"
+    android:minHeight="@dimen/listview_common_height"
+    android:background="@drawable/screen_list_item_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    >
+     <TextView
+        android:id="@+id/screen_audio_playlist_edit_number"
+        android:layout_width="@dimen/listview_item_songnumber_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"      
+        android:textColor="#f3f2f0"
+        android:textSize="@dimen/listview_item_songnumber_textSize" /> 
+    <LinearLayout
+        android:id="@+id/screen_audio_playlist_edit_songinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <TextView
+        android:id="@+id/screen_audio_playlist_edit_song"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+	    android:ellipsize="middle" 
+	    android:gravity="center_vertical" 	   
+		android:singleLine="true" 
+		android:textColor="#f3f2f0"
+		android:textSize="@dimen/listview_item_songname_textSize" />
+        <TextView
+        android:id="@+id/screen_audio_playlist_edit_duration"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+		android:singleLine="true"
+		android:ellipsize="middle"
+		android:gravity="center_vertical" 
+		android:textColor="#f3f2f0" 
+		android:textSize="@dimen/listview_item_songduration_textSize"/>
+   </LinearLayout>  
+    <CheckBox
+        android:id="@+id/screen_audio_playlist_edit_add"
+        style="@style/playlistEditCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/listview_item_options_layout_marginRight"
+        android:layout_weight="0" 
+        android:clickable="false"/>
+
+</LinearLayout>

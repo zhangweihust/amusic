@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_concertpcm_progress"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new"/>     
+        <TextView 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/dialog_convert_pcm_process_title"
+        	android:textStyle="bold"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_title_text_size"
+        	android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+           
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/dialog_convertpcm_progress_layout_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/convertpcm_progress_ralativeLayout_layout_height"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dialog_convert_pcm_process_text1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dialog_textview_textSize" />
+
+                <TextView
+                    android:id="@+id/dialog_convert_pcm_process_text_origin_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0M"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dialog_textview_textSize2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+             <com.amusic.media.view.CustomNoSeekSeekBar
+                    android:id="@+id/dialog_convert_pcm_process_seek_bar"
+                    android:layout_width="@dimen/customProgressBar_layout_width"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="@dimen/k_player_progress_bar_maxHeight"
+                    android:minHeight="@dimen/k_player_progress_bar_maxHeight"
+                    android:paddingTop="@dimen/k_player_progress_bar_paddingTop"
+                    android:progressDrawable="@drawable/seekbar_style"
+                    android:scrollbarStyle="outsideOverlay" 
+                    android:thumb="@drawable/screen_audio_player_seebar_thumb"
+                    android:thumbOffset="@dimen/audio_seekbar_thumbOffset" />   
+            
+                <TextView
+                    android:id="@+id/dialog_convert_pcm_process_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dialog_convert_pcm_process_percent_layout_paddingTop"
+                    android:text="@string/dialog_convert_pcm_process_text3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dialog_textview_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dialog_convert_pcm_process_text2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dialog_textview_textSize" />
+
+                <TextView
+                    android:id="@+id/dialog_convert_pcm_process_text_mp3_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0M(0%)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dialog_textview_textSize2" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+            android:background="@drawable/custom_dialog_line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dialog_convert_pcm_process_save_as_wav"
+                android:layout_width="@dimen/convertpcm_progress_button_layout_width"
+            	android:layout_height="@dimen/popwindow_btn_height"
+                android:background="@drawable/dialog_convert_btn_select"
+                android:gravity="center"
+                android:text="@string/dialog_convert_pcm_process_button1"
+                android:textStyle="normal"
+                android:textColor="@color/white" 
+                android:textSize="@dimen/dialog_textview_textSize"/>
+
+            <Button
+                android:id="@+id/dialog_convert_pcm_process_stop_convert"
+                android:layout_width="@dimen/convertpcm_progress_button_layout_width"
+            	android:layout_height="@dimen/popwindow_btn_height"
+                android:layout_marginLeft="@dimen/convertpcm_progress_button_layout_marginLeft"
+                android:background="@drawable/dialog_convert_btn_select"
+                android:gravity="center"
+                android:text="@string/dialog_convert_pcm_process_button2"
+                android:textStyle="normal" 
+                android:textColor="@color/white" 
+                android:textSize="@dimen/dialog_textview_textSize"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

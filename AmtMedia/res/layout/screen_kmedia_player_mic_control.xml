@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/k_mic_LinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/k_mic_layout_height"
+        android:layout_weight="0.0"
+        android:background="@drawable/k_mic_bg"
+        android:gravity="center_vertical" 
+        >
+
+        <Button
+            android:id="@+id/k_mic_btn"
+            android:layout_width="@dimen/k_mic_ico_width"
+            android:layout_height="@dimen/k_mic_ico_height"
+            android:layout_weight="0.0"
+            android:layout_marginLeft="@dimen/k_mic_btn_layout_marginLeft"
+            android:layout_marginRight="@dimen/k_mic_btn_layout_marginRight"
+            android:background="@drawable/screen_kmedia_player_mic_on" />
+
+        <SeekBar
+            android:id="@+id/k_mic_sound"
+            android:layout_weight="1.0"
+            android:layout_marginRight="@dimen/k_mic_sound_layout_marginRight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxHeight="@dimen/k_mic_sound_maxHeight"
+            android:minHeight="@dimen/k_mic_sound_maxHeight"
+            android:progressDrawable="@drawable/k_mic_progress_horizontal"
+            android:scrollbarStyle="outsideOverlay"
+            android:thumb="@drawable/k_player_thumb"
+            android:thumbOffset="@dimen/audio_seekbar_thumbOffset" />
+    </LinearLayout>

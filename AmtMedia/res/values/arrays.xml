@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="plantes">
+		<item>Blues</item>                      <!-- 0 -->
+		<item>Classic Rock</item>               <!-- 1 -->
+		<item>Country</item>                    <!-- 2 -->
+		<item>Dance</item>                      <!-- 3 -->
+		<item>Disco</item>    				    <!-- 4 -->
+		<item>Funk</item>    				    <!-- 5 -->
+		<item>Grunge</item>    					<!-- 6 -->
+		<item>Hip-Hop</item>    				<!-- 7 -->
+		<item>Jazz</item>    					<!-- 8 -->
+		<item>Metal</item>    					<!-- 9 -->
+		<item>New Age</item>    				<!-- 10 -->
+		<item>Oldies</item>    					<!-- 11 -->
+		<item>Other</item>    					<!-- 12 -->
+		<item>Pop</item>    					<!-- 13 -->
+		<item>RB</item>    						<!-- 14 -->
+		<item>Rap</item>    					<!-- 15 -->
+		<item>Reggae</item>    					<!-- 16 -->
+		<item>Rock</item>    					<!-- 17 -->
+		<item>Techno</item>    					<!-- 18 -->
+		<item>Industrial</item>    				<!-- 19 -->
+		<item>Alternative</item>   			 	<!-- 20 -->
+		<item>Ska</item>    					<!-- 21 -->
+		<item>Death Metal</item>    			<!-- 22 -->
+		<item>Pranks</item>    					<!-- 23 -->
+		<item>Soundtrack</item>    				<!-- 24 -->
+		<item>Euro-Techno</item>   				<!-- 25 -->
+		<item>Ambient</item>    				<!-- 26 -->
+		<item>Trip-Hop</item>    				<!-- 27 -->
+		<item>Vocal</item>    					<!-- 28 -->
+		<item>Jazz+Funk</item>    				<!-- 29 -->
+		<item>Fusion</item>    					<!-- 30 -->
+		<item>Trance</item>    					<!-- 31 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 33 -->
+		<item>Classical</item>    				<!-- 34 -->
+		<item>Classical</item>    				<!-- 35 -->
+		<item>Classical</item>    				<!-- 36 -->
+		<item>Classical</item>    				<!-- 37 -->
+		<item>Classical</item>    				<!-- 38 -->
+		<item>Classical</item>    				<!-- 39 -->
+		<item>Classical</item>    				<!-- 40 -->
+		<item>Classical</item>    				<!-- 41 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+		<item>Classical</item>    				<!-- 32 -->
+	</string-array>
+	
+	<string-array name="pictrue_download">
+		<item>@string/pictrue_forbid_download</item>
+		<item>@string/pictrue_always_download</item>
+		<item>@string/pictrue_wifi_download</item>
+	</string-array>
+	<string-array name="pictrue_download_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	
+	<string-array name="lyric_download">
+		<item>@string/lyric_forbid_download</item>
+		<item>@string/lyric_always_download</item>
+		<item>@string/lyric_wifi_download</item>
+	</string-array>
+	<string-array name="lyric_download_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	  <string-array name="equalizer_mode">       
+       <item>@string/normal</item>
+       <item>@string/classical</item>
+       <item>@string/dance</item>
+       <item>@string/balance</item>
+       <item>@string/folk</item>
+       <item>@string/heavy_metal</item>
+       <item>@string/hip_hop</item>
+       <item>@string/jazz</item>
+       <item>@string/pop</item>
+       <item>@string/rock</item>
+       <item>@string/custom</item>
+</string-array>      
+   <string-array name="reverb_mode">
+      <item>@string/none</item>
+      <item>@string/small_room</item>
+      <item>@string/medium_room</item>
+      <item>@string/large_room</item>
+      <item>@string/medium_hall</item>
+      <item>@string/large_hall</item>      
+      <item>@string/plate</item>     
+</string-array>  
+</resources>

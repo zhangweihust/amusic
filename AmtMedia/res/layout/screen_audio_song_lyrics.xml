@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res/com.amusic.media"
+    android:id="@+id/screen_audio_song_lyrics_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/screen_audio_song_lyric_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/singerViewLinearLayout"
+            android:layout_width="@dimen/singerViewLinearLayout_layout_width"
+            android:layout_height="@dimen/singerViewLinearLayout_layout_height"
+            android:layout_gravity="center"
+            android:background="@drawable/screen_audio_song_lyrics_image_bg"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/screen_audio_song_lyrics_album"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:layout_margin="@dimen/screen_audio_song_lyrics_album_layout_margin"
+                android:background="@drawable/screen_audio_default_singer_picture" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.amusic.media.lyric.render.PhoneKTVView
+        android:id="@+id/screen_audio_song_lyrics_lyrics"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/screen_audio_song_lyrics_lyrics_layout_height"
+        android:layout_weight="0"
+        test:textSize="@dimen/screen_audio_song_lyrics_lyrics_textSize" 
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/audio_layout_single_marginBottom" >
+    </LinearLayout>
+
+</LinearLayout>

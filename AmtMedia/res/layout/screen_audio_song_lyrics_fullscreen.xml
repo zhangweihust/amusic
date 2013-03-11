@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/screen_audio_song_lyric_fulllyric"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        xmlns:test="http://schemas.android.com/apk/res/com.amusic.media"
+        android:id="@+id/screen_audio_song_lyrics_fullscreen_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/screen_audio_song_lyrics_fullscreen_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoLink="all"
+            android:text="@string/lyric_download_error"
+            android:textColor="@color/screen_help_TextView_color2"
+            android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+        <com.amusic.media.lyric.render.FullLyricView
+            android:id="@+id/screen_audio_song_lyrics_fullscreen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            test:textSize1="@dimen/screen_audio_song_lyrics_lyrics_textSize1" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/audio_layout_full_marginBottom"
+        android:layout_gravity="bottom" >
+    </LinearLayout>
+
+</LinearLayout>

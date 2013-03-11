@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/screen_audio_playlist_edit_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/listview_layout_margin"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="@dimen/listview_item_dividerHeight"
+        android:fadingEdge="none" />
+    <ViewStub 
+        android:id="@+id/empty"
+        android:layout_weight="1"
+        android:layout="@layout/screen_no_items"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_weight="0" 
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginBottom="10dip"  >
+
+        <Button
+            android:id="@+id/screen_audio_playlist_edit_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dip"
+            android:background="@drawable/screen_button_select"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:text="@string/screen_audio_playlist_edit_ok"
+            android:layout_weight="1" >
+        </Button>
+
+        <Button
+            android:id="@+id/screen_audio_playlist_edit_selectall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_button_select"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:text="@string/screen_audio_playlist_edit_selectall" 
+            android:layout_weight="1">
+        </Button>
+
+        <Button
+            android:id="@+id/screen_audio_playlist_edit_cancelall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_button_select"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:text="@string/screen_audio_playlist_edit_cancelall"
+            android:visibility="gone" 
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

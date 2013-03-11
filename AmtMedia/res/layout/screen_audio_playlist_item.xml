@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_audio_playlist_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/screen_list_item_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:minHeight="@dimen/listview_common_height"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listview_item_TextView_layout_marginLeft"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/screen_audio_playlist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#f3f2f0"
+            android:textSize="@dimen/listview_item_title_textSize" />
+
+        <TextView
+            android:id="@+id/screen_audio_playlist_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="@dimen/listview_item_info_textSize" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/screen_audio_playlist_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/listview_item_options_layout_marginLeft"
+        android:layout_marginRight="@dimen/listview_item_options_layout_marginRight"
+        android:layout_weight="0"
+        android:background="@drawable/screen_audio_song_options_large"
+        android:focusable="false" />
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_confirm_save_record"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+            android:text="@string/editor_lyric_prompt"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_title_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/popwindow_item_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/editor_lyric_info"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <RadioGroup
+            android:id="@+id/editor_lyric_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/get_lyric_from_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/radioButton_layout_marginLeft"
+                android:button="@drawable/dialog_convert_radiobutton_selector"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/get_lyric_from_web"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/custom_dialog_line" />
+
+            <RadioButton
+                android:id="@+id/new_make_lyric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/radioButton_layout_marginLeft"
+                android:button="@drawable/dialog_convert_radiobutton_selector"
+                android:gravity="center"
+                android:text="@string/new_make_lyric"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+            android:background="@drawable/custom_dialog_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/popwindow_item_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/editor_lyric_ok"
+                android:layout_width="@dimen/popwindow_btn_width"
+                android:layout_height="@dimen/popwindow_btn_height"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:layout_weight="1"
+                android:background="@drawable/pop_audio_button_selector"
+                android:singleLine="true"
+                android:text="@string/editor_lyric_ok"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/editor_lyric_cancel"
+                android:layout_width="@dimen/popwindow_btn_width"
+                android:layout_height="@dimen/popwindow_btn_height"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:layout_weight="1"
+                android:background="@drawable/pop_audio_button_selector"
+                android:singleLine="true"
+                android:text="@string/editor_lyric_cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

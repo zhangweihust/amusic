@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/listview_layout_margin"
+            android:layout_marginLeft="@dimen/listview_layout_margin"
+            android:layout_marginRight="@dimen/listview_layout_margin"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/screen_timing_exit_layout_choose1"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/listview_common_height" 
+                android:background="@drawable/screen_list_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/listview_item_TextView_layout_marginLeft"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/screen_timing_exit_never"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/listview_item_title_textSize" />
+
+                <CheckBox
+                    android:id="@+id/screen_timing_exit_choose1"
+                    style="@style/playlistEditCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/screen_timing_exit_checkbox_marginLeft" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/screen_timing_exit_layout_choose2"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/listview_common_height"
+                android:layout_marginTop="@dimen/listview_item_dividerHeight"
+                android:background="@drawable/screen_list_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/listview_item_TextView_layout_marginLeft"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/screen_timing_exit_15"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/listview_item_title_textSize" />
+
+                <CheckBox
+                    android:id="@+id/screen_timing_exit_choose2"
+                    style="@style/playlistEditCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/screen_timing_exit_checkbox_marginLeft" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/screen_timing_exit_layout_choose3"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/listview_common_height"
+                android:layout_marginTop="@dimen/listview_item_dividerHeight"
+                android:background="@drawable/screen_list_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/listview_item_TextView_layout_marginLeft"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/screen_timing_exit_30"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/listview_item_title_textSize" />
+
+                <CheckBox
+                    android:id="@+id/screen_timing_exit_choose3"
+                    style="@style/playlistEditCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/screen_timing_exit_checkbox_marginLeft" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/screen_timing_exit_layout_choose4"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/listview_common_height"
+                android:layout_marginTop="@dimen/listview_item_dividerHeight"
+                android:background="@drawable/screen_list_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/listview_item_TextView_layout_marginLeft"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/screen_timing_exit_60"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/listview_item_title_textSize" />
+
+                <CheckBox
+                    android:id="@+id/screen_timing_exit_choose4"
+                    style="@style/playlistEditCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/screen_timing_exit_checkbox_marginLeft" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/screen_timing_exit_layout_choose5"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/listview_common_height"
+                android:layout_marginTop="@dimen/listview_item_dividerHeight"
+                android:background="@drawable/screen_list_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/listview_item_TextView_layout_marginLeft"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/screen_timing_exit_120"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/listview_item_title_textSize" />
+
+                <CheckBox
+                    android:id="@+id/screen_timing_exit_choose5"
+                    style="@style/playlistEditCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/screen_timing_exit_checkbox_marginLeft" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/screen_timing_exit_layout_choose6"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/listview_common_height"
+                android:layout_marginTop="@dimen/listview_item_dividerHeight"
+                android:background="@drawable/screen_list_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/screen_timing_exit_title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/listview_item_TextView_layout_marginLeft"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/screen_timing_exit_edittime"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/listview_item_title_textSize" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/screen_timing_exit_FrameLayout_marginLeft" >
+
+                    <EditText
+                        android:id="@+id/screen_timing_exit_edit"
+                        android:layout_width="@dimen/screen_timing_exit_EditText_layout_width"
+                        android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                        android:gravity="center_vertical"
+                        android:editable="true"
+                        android:hint="@string/screen_timing_exit_default"
+                        android:numeric="integer"
+                        android:singleLine="true"
+                        android:maxLength ="3"
+                        android:textSize="@dimen/listview_item_title_textSize"
+                        android:visibility="invisible"
+                         />
+
+                    <TextView
+                        android:id="@+id/screen_timing_exit_minite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/screen_timing_exit_EditText_minute_layout_height"
+                        android:layout_gravity="right"
+                        android:gravity="center_vertical"
+                        android:layout_marginRight="@dimen/screen_timing_exit_EditText_minute_layout_marginRight"
+                        android:text="@string/screen_timing_exit_info"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/listview_item_title_textSize"
+                        android:visibility="invisible"
+                         />
+                </FrameLayout>
+
+                <CheckBox
+                    android:id="@+id/screen_timing_exit_choose6"
+                    style="@style/playlistEditCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/screen_timing_exit_CheckBox_layout_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/screen_timing_exit_checkbox_marginLeft" />
+            </RelativeLayout>
+            <TextView
+            android:id="@+id/screen_timing_exit_spare_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/screen_timing_exit_EditText_space_time"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/screen_timing_exit_EditText_minute_layout_marginTop"
+            android:layout_marginRight="@dimen/screen_timing_exit_EditText_minute_layout_marginRight"
+            android:gravity="center_vertical"
+            android:text="@string/screen_timing_exit_spacetime_default"
+            android:textColor="#000000"
+            android:layout_marginLeft="6dp"
+            android:textSize="@dimen/screen_timing_exit_Button_textSize"
+            android:visibility="visible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/screen_timing_exit_ok_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/screen_timing_exit_ok"
+                android:layout_width="@dimen/screen_timing_exit_Button_layout_width"
+                android:layout_height="@dimen/screen_timing_exit_Button_layout_height"
+                android:background="@drawable/screen_timming_exit_button_selector"
+                android:gravity="center"
+                android:text="@string/screen_timing_exit_ok"
+                android:textColor="@color/white"
+                android:textSize="@dimen/screen_timing_exit_Button_textSize" >
+            </Button>
+
+            <Button
+                android:id="@+id/screen_timing_exit_cancal"
+                android:layout_width="@dimen/screen_timing_exit_Button_layout_width"
+                android:layout_height="@dimen/screen_timing_exit_Button_layout_height"
+                android:layout_marginLeft="@dimen/screen_timing_exit_btn_cancal_margin_left"
+                android:background="@drawable/screen_timming_exit_button_selector"
+                android:gravity="center"
+                android:text="@string/screen_timing_exit_cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/screen_timing_exit_Button_textSize" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

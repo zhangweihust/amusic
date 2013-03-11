@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="ActivityNoTitle" parent="android:Theme">
+<item name="android:windowNoTitle">true</item>
+</style>
+
+
+<style name="playlistsDialog" parent="android:style/Theme.Dialog">
+<item name="android:windowFrame">@null</item>
+<item name="android:windowIsFloating">true</item>
+<item name="android:windowIsTranslucent">false</item>
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowBackground">@null</item>
+<item name="android:backgroundDimEnabled">false</item>
+</style>
+<!--自定义消息框-->
+
+<style name="OnScreenHintTextAppearance">
+<item name="android:textColor">@android:color/primary_text_dark</item>
+<item name="android:textColorHighlight">#FFFF9200</item>
+<item name="android:textColorHint">#808080</item>
+<item name="android:textColorLink">#5C5CFF</item>
+<item name="android:textSize">18sp</item>
+<item name="android:textStyle">normal</item>
+</style>
+
+<style name="OnScreenHintTextAppearance.Small">
+<item name="android:textSize">14sp</item>
+<item name="android:textStyle">normal</item>
+<item name="android:textColor">@android:color/secondary_text_dark</item>
+</style>
+<style name="Animation"/>
+
+<style name="Animation.OnScreenHint">
+<item name="android:windowEnterAnimation">@anim/on_screen_hint_enter</item>
+<item name="android:windowExitAnimation">@anim/on_screen_hint_exit</item>
+</style>
+
+<style name="OnscreenActionIcon">
+<item name="android:focusable">false</item>
+<item name="android:clickable">true</item>
+<item name="android:textSize">13dip</item>
+<item name="android:singleLine">true</item>
+<item name="android:ellipsize">marquee</item>
+<item name="android:shadowColor">#FF000000</item>
+<item name="android:shadowRadius">2.0</item>
+<item name="android:textColor">#FFF</item>
+<item name="android:gravity">center_horizontal</item>
+<item name="android:layout_width">wrap_content</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:layout_weight">1</item>
+<item name="android:drawablePadding">3dip</item>
+</style>
+<!--自定义消息框结束-->
+
+<style name="favoriteCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+<item name="android:button">@drawable/favorite_checkbox</item>
+</style>
+
+<style name="playlistEditCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+<item name="android:button">@drawable/playlist_edit_checkbox</item>
+</style>
+
+<style name="screen_ktv_tabhost">
+<item name="android:textColor">#ffffffff</item>
+<item name="android:ellipsize">marquee</item>
+<item name="android:gravity">center_horizontal</item>
+<item name="android:layout_width">40dip</item>
+<item name="android:layout_height">22dip</item>
+<item name="android:button">@null</item>
+<item name="android:textSize">16sp</item>
+<item name="android:singleLine">true</item>
+<item name="android:layout_weight">1.0</item>
+<item name="android:layout_margin">0dip</item>
+</style>
+<!-- 锁屏用的透明的dialog -->
+
+<style name="screen_lock_default">
+<item name="android:windowBackground">@color/transparent</item>
+<item name="android:windowFrame">@null</item>
+</style>
+
+<style name="CustomDialog" parent="@android:Theme.Dialog">
+<item name="android:windowFrame">@null</item>
+<!--边框-->
+<item name="android:windowIsFloating">true</item>
+<!--是否浮现在activity之上-->
+<item name="android:windowIsTranslucent">true</item>
+<!--半透明-->
+<item name="android:windowNoTitle">true</item>
+<!--无标题-->
+<item name="android:windowBackground">@color/transparent</item>
+<!--背景透明-->
+<item name="android:backgroundDimEnabled">true</item>
+<!--模糊-->
+</style>
+
+<style name="CustomDialogText">
+<item name="android:textColor">#FF000000</item>
+<item name="android:textSize">12sp</item>
+</style>
+
+<style name="CustomDialogText.Title">
+<item name="android:textSize">16sp</item>
+<item name="android:textStyle">bold</item>
+</style>
+
+<style name="CustomPopWindow">
+<item name="android:layout_width">fill_parent</item>
+<item name="android:layout_height">@dimen/popwindow_item_height</item>
+<item name="android:gravity">center_vertical</item>
+<item name="android:background">@drawable/popwindow_item_bg_selector</item>
+<item name="android:textColor">#ffffff</item>
+<item name="android:textSize">16sp</item>
+<item name="android:singleLine">true</item>
+</style>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_search_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/screen_search_list_item_minHeight"
+    android:minHeight="@dimen/screen_search_list_item_minHeight"
+    android:background="@drawable/screen_list_item_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/screen_search_list_item_above"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" 
+        android:layout_weight="1"   
+        android:gravity="center_vertical"    
+        android:paddingLeft="@dimen/search_list_item_textview_paddingLeft"
+        android:textColor="@color/white"
+        android:textSize="@dimen/search_list_item_textview_textsize" />
+    <TextView
+        android:id="@+id/screen_search_list_item_status"
+        android:layout_width="@dimen/search_list_item_status_layout_width"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+        android:gravity="center_vertical|right" 
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginRight="@dimen/search_list_status_marginRight"
+        android:layout_marginLeft="@dimen/search_list_status_marginLeft"          
+        android:textSize="@dimen/search_list_status_textview_textsize" />
+
+</LinearLayout>

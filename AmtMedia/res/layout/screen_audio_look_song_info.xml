@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popwindow_item_width"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new"/>     
+        <TextView 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/screen_audio_song_options_attributes"
+        	android:textStyle="bold"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_title_text_size"
+        	android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+           
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_weight="1"
+    android:layout_height="wrap_content" android:scrollbars="vertical">  
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tv_look_audio_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_singer_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+            
+        <TextView
+            android:id="@+id/tv_look_audio_song_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_song_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+            
+        <TextView
+            android:id="@+id/tv_look_audio_album"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_album_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+            
+        <TextView
+            android:id="@+id/tv_look_audio_song_duration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_song_duration"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+        
+        <TextView
+            android:id="@+id/tv_look_audio_song_size"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_song_size"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/line_0"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+
+        <TextView
+            android:id="@+id/tv_look_audio_song_year"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_song_year"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/line_1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+        
+        <TextView
+            android:id="@+id/tv_look_audio_song_genre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_song_genre"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/line_2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+                    
+        <TextView
+            android:id="@+id/tv_look_audio_song_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_song_comment"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />  
+            
+        <TextView
+            android:id="@+id/tv_look_audio_song_position"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_dialog_listview_item2_minHeight"
+            android:gravity="center|left"
+            android:text="@string/screen_audio_song_options_attributes_song_position"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>    
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+            android:background="@drawable/custom_dialog_line" />    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+         android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ok_look"
+            android:layout_width="@dimen/popwindow_btn_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:background="@drawable/pop_audio_button_selector"
+            android:gravity="center"
+            android:text="@string/screen_audio_song_options_attributes_edit"
+            android:layout_marginRight="7dip"  
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:layout_weight="1"
+            android:textStyle="normal"
+             android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btn_cancel_look"
+            android:layout_width="@dimen/popwindow_btn_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:background="@drawable/pop_audio_button_selector"
+            android:gravity="center"
+            android:layout_marginLeft="7dip"
+            android:text="@string/screen_audio_song_options_attributes_edit_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="normal"
+            android:layout_weight="1"
+             android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/screen_suggestion_feedback_linearLayout_margin_left_right"
+        android:layout_marginRight="@dimen/screen_suggestion_feedback_linearLayout_margin_left_right"
+        android:layout_marginTop="@dimen/screen_suggestion_feedback_linearLayout_margin_top"
+        android:background="@drawable/screen_suggestion_feedback_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_suggestion_feedback_linearLayout_inside_padding" >
+
+        <EditText
+            android:id="@+id/screen_create_lyric_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/screen_suggestion_feedback_edittext_bg"
+            android:gravity="top"
+            android:hint="@string/screen_create_lyric_hint"
+            android:textColorHint="#b1b1b1"
+            android:textSize="@dimen/screen_suggestion_feedback_textsize_context" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dip"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/screen_create_lyric_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_button_select"
+            android:text="@string/screen_create_lyric_ok"
+            android:textSize="@dimen/screen_timing_exit_Button_textSize"
+            android:textColor="@color/white" >
+        </Button>
+
+        <Button
+            android:id="@+id/screen_create_lyricc_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/screen_suggestion_feedback_btn_ok_margin_left"
+            android:background="@drawable/screen_button_select"
+            android:text="@string/screen_create_lyric_cancel"
+            android:textSize="@dimen/screen_timing_exit_Button_textSize"
+            android:textColor="@color/white" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- 格式模板： <dimen name="XML文件名_控件ID名_布局属性">属性值</dimen> -->
+    <!--screen_kmedia_player.xml -->
+    <dimen name="k_player_playtime_textSize">15px</dimen> 
+    <dimen name="k_player_duration_textSize">15px</dimen> 
+	<!--screen_audio_player.xml -->
+	<dimen name="audio_playtime_textSize">18px</dimen> 
+	<dimen name="audio_duration_textSize">18px</dimen> 
+    <!--screen_audio_song_lyrics.xml -->
+    <dimen name="singerViewLinearLayout_layout_width">330px</dimen> 
+    <dimen name="singerViewLinearLayout_layout_height">330px</dimen> 
+    <dimen name="singerViewLinearLayout_layout_marginTop">85px</dimen> 
+    <dimen name="singerViewLinearLayout_layout_marginBottom">60px</dimen> 
+    <dimen name="screen_audio_song_lyrics_lyrics_layout_height">100px</dimen> 
+    <dimen name="screen_audio_song_lyrics_lyrics_textSize">26px</dimen>
+    <dimen name="screen_audio_song_lyrics_lyrics_textSize1">26px</dimen>
+    <dimen name="screen_audio_song_lyrics_album_layout_margin">10px</dimen>
+    <!--screen_audio_player.xml -->
+	<dimen name="audio_info_layout_height">66px</dimen>
+	<dimen name="audio_play_back_btn_layout_width">72px</dimen>
+	<dimen name="audio_play_back_btn_layout_height">38px</dimen>
+	<dimen name="audio_play_back_btn_layout_marginLeft">15px</dimen>
+	<dimen name="audio_name_textSize">23px</dimen>
+	<dimen name="audio_artist_layout_marginTop">4px</dimen>
+	<dimen name="audio_artist_textSize">15px</dimen>
+	<dimen name="audio_seekbar_maxHeight">2px</dimen>
+	<dimen name="audio_seekbar_paddingLeft">15px</dimen>
+	<dimen name="audio_seekbar_paddingRight">15px</dimen>
+	<dimen name="audio_seekbar_paddingTop">18px</dimen>
+	<dimen name="audio_seekbar_thumbOffset">10px</dimen>
+	<dimen name="audio_playtime_layout_marginLeft">15px</dimen>	
+	<dimen name="audio_playtime_layout_width">80px</dimen>
+	<dimen name="audio_duration_layout_marginRight">15px</dimen>	
+	<dimen name="audio_abrepeat_btn_layout_margin">7px</dimen>   
+	<dimen name="audio_layout_marginBottom">10px</dimen>
+	<dimen name="audio_layout_single_marginBottom">15px</dimen>
+	<dimen name="audio_layout_full_marginBottom">30px</dimen>
+	<dimen name="audio_dot_layout_marginLeft">15px</dimen> 
+	
+	<!-- Lyric Make -->
+	<dimen name="lyric_make_fontSize">60px</dimen>
+</resources>

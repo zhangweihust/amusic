@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scan_all_select"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/screen_list_item"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/listview_common_height"
+    android:fadingEdge="none"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="0.948"
+        android:text="@string/scan_scan_all_select_str"
+        android:textColor="@color/white"
+        android:textSize="@dimen/listview_item_title_textSize" />
+
+    <ImageView
+        android:id="@+id/screen_scan_all_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/screen_audio_playlist_edit_checked_true"
+ />
+
+</LinearLayout>

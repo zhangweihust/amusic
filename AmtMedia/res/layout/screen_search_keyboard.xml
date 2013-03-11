@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_search_list_keyboard"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/screen_search_keyboard_bg"
+    android:orientation="vertical"
+    android:visibility="gone" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_keyboard_characte_layout_marginTop"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_1"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="1"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_2"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="2"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_3"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="3"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_4"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="4"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_5"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="5"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_6"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="6"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_7"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="7"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_8"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="8"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_9"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="9"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_0"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="0"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/search_keyboard_characte_layout_marginTop"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_q"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="Q"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_w"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="W"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_e"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="E"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_r"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="R"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_t"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="T"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_y"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="Y"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_u"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="U"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_i"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="I"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_o"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="O"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_p"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="P"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/search_keyboard_characte_layout_marginTop"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_a"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="A"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_s"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="S"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_d"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="D"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_f"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="F"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_g"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="G"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_h"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="H"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_j"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="J"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_k"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="K"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_l"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="L"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_question"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="\?"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_keyboard_characte_layout_marginTop"
+        android:layout_marginBottom="@dimen/search_keyboard_characte_layout_marginBottom"
+        android:orientation="horizontal"
+        android:weightSum="20" >
+        <Button
+            android:id="@+id/screen_search_list_keyboard_wildcard"
+            android:layout_width="@dimen/search_keyboard_wildcard_layout_width"
+            android:layout_height="@dimen/search_keyboard_wildcard_layout_height"
+            android:layout_weight="3"
+            android:background="@drawable/screen_search_keyboard_wild_selector" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_z"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="2"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="Z"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_x"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="2"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="X"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_c"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="2"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="C"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_v"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="2"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="V"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_b"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="2"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="B"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_n"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="2"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="N"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_m"
+            android:layout_width="@dimen/search_keyboard_character_layout_width"
+            android:layout_height="@dimen/search_keyboard_character_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="2"
+            android:background="@drawable/screen_search_keyboard_character_selector"
+            android:text="M"
+            android:textColor="@color/screen_search_keyboard_character_color"
+            android:textSize="@dimen/search_keyboard_character_textsize" />
+
+        <Button
+            android:id="@+id/screen_search_list_keyboard_del"
+            android:layout_width="@dimen/search_keyboard_del_layout_width"
+            android:layout_height="@dimen/search_keyboard_del_layout_height"
+            android:layout_marginLeft="@dimen/search_keyboard_characte_layout_marginLeft"
+            android:layout_weight="3"
+            android:background="@drawable/screen_search_keyboard_del_selector" />
+    </LinearLayout>
+</LinearLayout>

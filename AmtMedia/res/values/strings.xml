@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">aMusic</string>
+	<string name="screen_top_play_control_playing">Playing</string>
+	<string name="screen_home_tab_audio">Music</string>
+	<string name="screen_home_tab_record">Record</string>
+	<string name="screen_home_tab_search">Library</string>
+	<string name="screen_home_tab_kmedia">Sing</string>
+	<string name="screen_audio_item_playlists_name">Playlist</string>
+	<string name="screen_audio_item_songs_name">Song</string>
+	<string name="screen_audio_item_singers_name">Artist</string>
+	<string name="screen_audio_item_albums_name">Album</string>
+	<string name="screen_audio_item_favorites_name">Favourite</string>
+	<string name="screen_audio_item_recently_songs_name">Recently</string>
+	<string name="screen_search_category_item_child_name">Child</string>
+	<string name="screen_search_category_item_love_name">Love</string>
+	<string name="screen_search_category_item_europe_name">Western</string>
+	<string name="screen_search_category_item_jask_name">Japan&amp;Korea</string>
+	<string name="screen_search_category_item_classic_name">Classic</string>
+	<string name="screen_search_category_item_television_name">Movie</string>
+	<string name="screen_search_category_item_hkat_name">HK&amp;TW</string>
+	<string name="screen_search_category_item_china_name">China</string>
+	<string name="screen_search_baidu_content">Baidu Search</string>
+	<string name="screen_search_easou_content">Easou Search</string>
+	<string name="screen_search_filter">Input letters of song or artist</string>
+	<string name="screen_search_song_filter">Input letters of song</string>
+	<string name="screen_search_singer_filter">Input letters of artist</string>
+	<string name="screen_audio_item_sect_unknow">Unknown</string>
+	<string name="screen_audio_playlist_create">Create playlist</string>
+	<string name="screen_audio_playlist_create_name">Playlist name:</string>
+	<string name="screen_audio_playlist_create_ok">OK</string>
+	<string name="screen_audio_playlist_create_cancel">Cancel</string>
+	<string name="screen_audio_playlist_create_title">New playlist</string>
+	<string name="screen_audio_playlist_rename">Rename</string>
+	<string name="screen_audio_playlist_rename_name">New name:</string>
+	<string name="screen_audio_playlist_rename_ok">OK</string>
+	<string name="screen_audio_playlist_rename_cancel">Cancel</string>
+	<string name="screen_audio_playlist_rename_title">Rename</string>
+	<string name="screen_audio_songs_add_songs">Add Songs</string>
+	<string name="screen_audio_playlist_edit_ok">Add</string>
+	<string name="screen_audio_playlist_edit_selectall">All</string>
+	<string name="screen_audio_playlist_edit_cancelall">None</string>
+	<string formatted="false" name="screen_search_page_default">0/0 page</string>
+	<string formatted="false" name="screen_search_page_info">%s/%s page</string>
+	<string name="screen_home_menu_scanner">Scan</string>
+	<string name="screen_home_menu_search">Search lyrics</string>
+	<string name="screen_home_menu_edit">lyrics edit</string>
+	<string name="screen_home_menu_color">Lyrics colors</string>
+	<string name="screen_home_menu_delete">Delete the word graph</string>
+	<string name="screen_home_menu_modify">Lyrics to modify</string>
+	<string name="screen_home_menu_lyric_tools">lyric modify</string>
+	<string name="screen_home_menu_download_manager">Download</string>
+	<string name="screen_home_menu_system_settings">settings</string>
+	<string name="screen_home_menu_equalizer_settings">Equalizer</string>
+	<string name="screen_home_menu_share">Share</string>
+	<string name="screen_home_menu_song_problem">Song Error</string>
+	<string name="screen_home_menu_skin">Replacement of skin</string>
+	<string name="screen_home_menu_exit">Exit</string>
+	<string name="screen_home_menu_timing">Timer</string>
+	<string name="screen_home_menu_mode">Play mode</string>
+	<string name="screen_home_menu_version">Version</string>
+	<string name="screen_home_menu_suggestion">Feedback</string>
+	<string name="screen_home_menu_function">Help</string>
+	<string name="screen_audio_playlist_menu_delete">Remove</string>
+	<string name="screen_search_download_from_baidu">Baidu Music</string>
+	<string name="screen_search_download_from_sougou">Sogou Music</string>
+	<string name="screen_audio_songs_addsongs">Add Songs</string>
+	<string formatted="false" name="screen_search_singers_count">%s Artists</string>
+	<string formatted="false" name="screen_search_songs_count">%s Songs</string>
+	<string formatted="false" name="screen_search_reserve_songs_count">%s Songs</string>
+	<string formatted="false" name="screen_search_history_songs_count">%s Songs</string>
+    <string formatted="false" name="screen_audio_songs_count">%s</string>
+    <string formatted="false" name="screen_audio_next_song">Next:%s</string>
+	<string name="screen_search_download_ok">Download</string>
+	<string name="screen_search_download_cancel">Cancel</string>
+	<string name="get_network_failed">Please check if your network is available</string>
+	<string name="no_network">Network unavailable</string>
+	<string name="wifi_unable">Wifi unavailable</string>
+	<string name="n_3g_unable">2G/3G unavailable</string>
+	<string name="screen_help_accompany_head">Vocal removal</string>
+	<string name="screen_help_accompany_body">Vocal removal, freely switch</string>
+	<string name="screen_help_phone_ktv_head">Your KTV in cellphone</string>
+	<string name="screen_help_phone_ktv_body">Your KTV in cellphone,enjoy KTV with headset</string>
+	<string name="screen_help_mass_songs_head">mass songs download</string>
+	<string name="screen_help_mass_songs_body">mass songs download with on key</string>
+	<string name="screen_help_verbatim_lyrics_head"> Lyric location with word by word</string>
+	<string name="screen_help_verbatim_lyrics_body"> Lyric location with word by word,the best enjoy for the music.</string>
+	<string name="screen_help_easy_search_song_head">Easily search for songs</string>
+	<string name="screen_help_easy_search_song_body">Easily search for songs,the wonderful enjoyment.</string>
+	<string name="screen_help_repeat_head">AB loop mode</string>
+	<string name="screen_help_repeat_body">AB loop mode</string>
+	<string name="screen_help_head">AM\n\nthe Best music player</string>
+	<string name="screen_help_start">Start to enjoy</string>
+    <string name="sd_card_not_enough_space">Sdcard in insufficient storage, please clean up!</string>
+    <string name="sd_card_not_insert_please_insert_for_recording">Please insert sdcard, or there is no recording!</string>
+	<string name="screen_search_playing">Selected</string>
+	<string name="screen_search_history">Played</string>
+	<string name="screen_search_keyboard">Keyboard</string>
+	<string name="screen_search_previous">Previous page</string>
+	<string name="screen_search_next">Next page</string>
+	<string name="screen_audio_playlist_options_addsongs">Add song</string>
+	<string name="screen_audio_playlist_options_addtoplaying">Add to now-playing list</string>
+	<string name="screen_audio_playlist_options_rename">Rename</string>
+	<string name="screen_audio_playlist_options_play">Play</string>
+	<string name="screen_audio_playlist_options_delete">Delete playlist</string>
+	<string name="screen_audio_playlist_options_cleanup">Clear playlist</string>
+	<string name="screen_audio_song_options_addto">Add to playlist</string>
+	<string name="screen_audio_song_options_remove">Delete</string>
+	<string name="screen_audio_song_options_ringtones">Set for ring</string>
+	<string name="screen_audio_song_options_attributes">Check Music Info</string>
+	<string name="screen_audio_make_lyric">Make lyrics</string>
+	<string name="screen_audio_song_options_attributes_editInfo">Edit Music Info</string>
+	<string name="screen_audio_song_options_attributes_song_name">Title:</string>
+	<string name="screen_audio_song_options_attributes_singer_name">Artist\t:\t</string>
+	<string name="screen_audio_song_options_attributes_album_name">Album\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_duration">Duration\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_size">Size\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_year">Year\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_genre">Genre\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_position">Path\t:\t</string>
+	<string name="screen_audio_song_options_attributes_song_comment">Comment\t:\t</string>
+	<string name="screen_audio_song_options_attributes_info">Sorry, format not support!</string>
+	<string name="screen_audio_song_options_attributes_edit">Edit</string>
+	<string name="screen_audio_song_options_attributes_edit_cancel">Cancel</string>
+	<string name="screen_audio_song_options_attributes_edit_ok">OK</string>
+	<string name="screen_audio_song_options_delete">Delete</string>
+	<string name="screen_audio_album_options_play">Play</string>
+	<string name="screen_audio_album_options_addto_playlist">Add to playlist</string>
+	<string name="screen_audio_album_options_delete">Delete</string>
+	<string name="screen_audio_singer_options_addto_playlist">Add to playlist</string>
+	<string name="screen_audio_singer_options_play">Play</string>
+	<string name="screen_audio_singer_options_delete">Delete</string>
+	<string name="screen_audio_singer_options_seacher">Check Music Info</string>
+	<string name="screen_audio_favorite_options_remove">Delete</string>
+	<string name="screen_audio_favorite_options_addto">Add to playlist</string>
+	<string name="screen_audio_favorite_options_play">Play</string>
+	<string name="screen_audio_favorite_options_attributes">Check Music Info</string>
+	<string name="screen_kmedia_song_options_original">Sing with Origin</string>
+	<string name="screen_kmedia_song_options_accompaniment">Sing with Accompany</string>
+	<string name="screen_kmedia_song_options_delete">Delete Accompany</string>
+	<string name="screen_kmedia_song_options_back">Back</string>
+	<string name="screen_kmedia_song_options_save">Save record</string>
+	<string name="unknown_aitist">Unknown artist-</string>
+	<string name="record_file_seperator">_record</string>
+	<string name="stop_convert_confirm_ok">OK</string>
+	<string name="stop_convert_confirm_cancel">Cancel</string>
+	<string name="really_quit_this_k_music">Sure to stop this singing?</string>
+	<string name="really_quit_this_k_music_yes">Yes</string>
+	<string name="really_quit_this_k_music_no">No</string>
+	<string name="screen_audio_recently_options_addto_playlist">Add to playlist</string>
+	<string name="screen_audio_recently_options_delete">Delete</string>
+	<string name="screen_audio_recently_options_attributes">Check Info</string>
+	<string name="screen_audio_player_original_music">Original</string>
+	<string name="screen_audio_player_play_music">Play</string>
+	<string name="screen_audio_player_repeat_music">Restart</string>
+	<string name="screen_audio_player_record_music">Record</string>
+	<string name="screen_audio_player_mic_music">MIC</string>
+	<string name="screen_audio_player_audio_artist_unknown">Unknown artist</string>
+	<string name="screen_audio_player_abrepeat_error">B must be after A</string>
+	<string name="screen_audio_player_no_accompany">Unsupported format</string>
+	<string name="screen_audio_player_no_original">Unsupported format or original unavailable</string>
+	<string name="screen_audio_player_cannot_delete">The song‘s playing, can not be deleted</string>
+	<string name="screen_audio_player_edit_out_of_range">Input value out of range</string>
+    <string name="screen_audio_player_delete_song_success">Successly delete the song </string>
+	<string name="screen_audio_player_is_last_one">The music is last one</string>
+	<string name="screen_audio_player_is_error_one">Corrupted file or unavailable, play next one</string>
+	<string name="screen_music_is_error_one">Corrupted file or unavailable, can not play</string>
+	<string name="screen_music_have_no_music">Corrupted file or unavailable</string>
+	<string name="screen_accompaniment_is_error_one">The accompany files does not exist</string>
+	<string name="screen_audio_player_delete_accompaniment_success">Delete accompaniment success</string>	
+	<string name="screen_audio_player_mode_toast">Please choose a mode, or click Cancel to exit</string>
+	<string name="screen_audio_player_mode_title">Play mode</string>
+	<string name="screen_audio_player_mode_shuffle">Shuffle</string>
+	<string name="screen_audio_player_mode_list_cycle">Repeating all songs</string>
+	<string name="screen_audio_player_mode_order">Sequence mode</string>
+	<string name="screen_audio_player_mode_single_repeat">Single loop</string>
+	<string name="screen_audio_playlists">Playlists</string>
+	<string name="screen_audio_songs">All songs</string>
+	<string name="screen_audio_singers">Artists</string>
+	<string name="screen_audio_favorites">Favourites</string>
+	<string name="screen_audio_albums">Albums</string>
+	<string name="screen_audio_recently">Recentlys</string>
+	<string name="screen_audio_dialog_playlists_title">Playlist</string>
+	<string name="screen_audio_playlists_exist">The playlist is already exist</string>	
+	<string name="screen_audio_playlists_add_success"> Song add success</string>
+    <string name="screen_no_items">Content is empty</string>
+	<string name="screen_menu_userfull">Common</string>
+	<string name="screen_menu_tools">Tool</string>
+	<string name="screen_menu_help">Help</string>
+	<string name="screen_refresh">Refresh</string>
+	<string name="screen_download">Download</string>
+	<string name="screen_exit">Exit</string>
+	<string name="screen_clear_download">Clean history</string>
+	<string name="screen_search_item_top_title">Songs Rank</string>
+	<string name="screen_search_item_top_description">Favourite of others</string>
+	<string name="screen_search_item_category_title">Category Search</string>
+	<string name="screen_search_item_category_description">Search by category</string>
+	<string name="screen_search_item_song_title">Song search</string>
+	<string name="screen_search_item_song_description">Search by song name</string>
+	<string name="screen_search_item_singer_title">Artist Search</string>
+	<string name="screen_search_item_singer_description">Search by artist name</string>
+	<string name="screen_search_tops_title">Songs Rank</string>
+	<string name="screen_search_categories_title">Category Search</string>
+	<string name="screen_search_songs_title">Song Search</string>
+	<string name="screen_search_singers_title">Artist Search</string>
+ 	<!-- screen_kmedia_player -->
+   	<string name="screen_kmedia_player_tab_original_music">Org</string>
+    <string name="screen_kmedia_player_tab_accompany_music">Acc</string>
+    <string name="screen_kmedia_player_plug_headset">Please plug in headphones!</string>
+    <string name="screen_kmedia_player_mic_on">MIC is on</string>
+    <string name="screen_kmedia_player_mic_off">MIC is off</string>
+    <string name="screen_kmedia_player_ktv_begin">Start</string>
+    <string name="screen_kmedia_player_ktv_end">end</string>
+    <!-- screen_record -->
+    <string name="screen_record_delete">Delete record</string>
+    <string name="screen_record">Record</string>
+    <string name="screen_record_delete_really">Sure to delete?</string>
+    <string name="screen_record_ok">OK</string>
+    <string name="screen_record_cancel">Cancel</string>
+    <string name="screen_record_delete_success">Success delete the record</string>
+    <string name="screen_record_player_edit_signature">Edit signature</string>
+    <string name="screen_record_player_edit_signature_ok">ok</string>
+    <string name="screen_record_player_edit_signature_cancel">cancel</string>
+    <string name="screen_record_player_edit_signature_null_string_not_permitted">Empty signature not allowed</string>
+    <string name="screen_record_player_edit_signature_mp3_contained_string_not_permitted">String contain mp3 for signature not allowed</string>
+    <string name="screen_record_player_edit_signature_wav_contained_string_not_permitted">String contain wav for signature not allowed</string>
+   <string name="play_record_now">Now you want to play the recording</string>
+        <!-- custom_dialog -->
+   	<string name="custom_dialog_button_ok">OK</string>
+   	<string name="custom_dialog_button_cancel">Cancel</string>
+   	<string name="custom_dialog_button_hide">Hide</string>
+   	<string name="custom_dialog_button_examine">Check</string>
+   	<string name="custom_dialog_button_edit">Edit</string>
+    <string name="custom_dialog_content_save_record">Save the record?</string>
+    <!--dialog hide or exit -->
+    <string name="dialog_hide_or_exit_title">Sure to exit?</string>
+    <string name="dialog_hide_or_exit_ok">OK</string>
+    <string name="dialog_hide_or_exit_hide">Hide</string>
+    <string name="dialog_hide_or_exit_cancel">Cancel</string>
+    <!-- screen_search -->
+    <string name="screen_search_from_baidu_title">In order to ensure the quality of the music, please download from "zhangmenshiting.baidu"!</string>
+    <string name="screen_search_no_name">Please input the music name！</string>
+    <!-- screen_skin.xml -->
+    <string name="screen_skin_top_title">Background for skins</string>
+    <string name="screen_skin_sytle_default">Dream Hallucinations</string>
+    <string name="screen_skin_style_blue_ocean">Blue Ocean</string>
+    <string name="screen_skin_style_blue_rhyme">Blue Rhyme</string>
+    <string name="screen_skin_style_brilliant_starlight">Brilliant Starlight</string>
+    <string name="screen_skin_style_northern_snow">Northern snow</string>
+    <string name="screen_skin_style_grass_green">Grass green</string>
+    <string name="screen_skin_style_lighthouse">Lighthouse</string>
+    <string name="screen_skin_style_sunshine_coast">Sunshine coast</string>
+    <string name="screen_skin_style_space_travel">Space travel</string>
+    <string name="screen_skin_style_sunset_glow">Sunset glow</string>
+    <string name="screen_skin_style_dream_shadow">Dream shadow</string>
+    <string name="screen_skin_more">More skin</string>
+    <string name="screen_skin_prompt">Prompt</string>  
+    <string name="screen_skin_delete_right_now">Delete this skin?</string>    
+    <string name="screen_skin_downloading">Loading skin</string> 
+    <string name="screen_skin_last_one">Already the last one</string> 
+     <!-- screen_version.xml -->
+     <string name="screen_version_top_title">Version info</string>
+     <string name="screen_version_title">aMusic&#160;v</string>
+     <string name="screen_version_check_update">Check Update</string>
+     <string name="screen_version_download_update_background">Updates is downloading background...</string>
+      <!--dialog timing exit -->
+    <string name="dialog_timing_exit_ok">OK</string>
+    <string name="dialog_timing_exit_cancel">Cancel</string> 
+    <!--dialog download music by web-->
+      <string name="dialog_download_music_by_web_title">Download music</string>
+      <string name="dialog_download_music_by_web_songname">Song:</string>
+      <string name="dialog_download_music_by_web_player">Artist:</string>
+      <string name="dialog_download_music_by_web_ok">OK</string>
+      <string name="dialog_download_music_by_web_cancel">Cancel</string>
+      <!--dialog save record confirm -->
+      <string name="dialog_save_record_confirm_title">Save record</string>
+      <string name="dialog_save_record_confirm_text">Save record?</string>
+      <string name="dialog_save_record_confirm_type1">mp3</string>
+      <string name="dialog_save_record_confirm_type2">wav</string>
+      <string name="dialog_save_record_confirm_yes">Yes</string>
+      <string name="dialog_save_record_confirm_no">No</string>
+      <string name="dialog_save_record_confirm_cancel">Cancel</string>
+      <!--dialog convert pcm process -->
+      <string name="dialog_convert_pcm_process_title">Format convert</string>
+      <string name="dialog_convert_pcm_process_text1">Input size</string>
+      <string name="dialog_convert_pcm_process_text2">Output size</string>
+      <string name="dialog_convert_pcm_process_text3">pcm converting,please wait...</string>
+      <string name="dialog_convert_pcm_process_button1">save as *.wav immediately</string>
+      <string name="dialog_convert_pcm_process_button2">Cancel converting</string>
+      <string name="dialog_convert_pcm_process_text4">completed</string>
+      <!--dialog stop convert confirm -->
+      <string name="dialog_stop_convert_confirm_title">Prompt</string>
+      <string name="dialog_stop_convert_confirm_text">Data will be Discard, sure to abort?</string>
+      <string name="dialog_stop_convert_confirm_button1">OK</string>
+      <string name="dialog_stop_convert_confirm_button2">Cancel</string>
+      <!--dialog downloadbyweb -->
+      <string name="dialog_download_by_web_title">Downloading,please wait...</string>
+      <string name="notmp3_download_by_web_title">your download is not "mp3",player can not play!</string>
+      <!-- suggestion feedback -->
+	  <string name="screen_suggestion_feedback_bar">Feedback</string>
+	  <string name="screen_suggestion_feedback_title">Feedback content</string>
+	  <string name="screen_suggestion_feedback_limit">*5 words at least</string>
+	  <string name="screen_suggestion_feedback_notification">Thanks for giving us your opinions to improve</string>
+	  <string name="screen_suggestion_feedback_QQ">QQ</string>
+	  <string name="screen_suggestion_feedback_tel">Telephone</string>
+	  <string name="screen_suggestion_feedback_ok">OK</string>
+	  <string name="screen_suggestion_feedback_cancel">Cancel</string>
+	  <string name="screen_suggestion_feedback_info1">Please control your words between 5-300 words, thank you!</string>
+	  <string name="screen_suggestion_feedback_info2">Your opinion is saved, thank you!</string>
+	  <string name="screen_suggestion_feedback_info3">Your opinion is submit, thank you!</string>
+	  <!--screen timing exit -->
+	  <string name="screen_timing_exit_title">Timer for close</string>
+      <string name="screen_timing_exit_default">Unit:</string> 
+      <string name="screen_timing_exit_info">min</string> 
+      <string name="screen_timing_exit_ok">OK</string>
+      <string name="screen_timing_exit_cancel">Cancel</string>  
+      <string name="screen_timing_exit_toast1">Please enter a valid number of minutes</string>  
+      <string name="screen_timing_exit_toast2">Please choose a mode, or click Cancel to exit</string>  
+      <string name="screen_timing_exit_never">Never</string>
+      <string name="screen_timing_exit_15">15 minutes</string>
+      <string name="screen_timing_exit_30">30 minutes</string>
+      <string name="screen_timing_exit_60">1 hour</string>
+      <string name="screen_timing_exit_120">2 hours</string>
+      <string name="screen_timing_exit_edittime">Custom:</string>
+      <string name="screen_timing_exit_spacetime_default">not Start Sleep Mode</string>
+      <string name="screen_timing_exit_spacetime_before">Sleep Mode is starting，there are </string>
+      <string name="screen_timing_exit_spacetime_after"> minute(s) left to close the program</string>
+      <!-- screen scan -->
+      <string name="screen_scan_title">Scan Songs</string>
+      <string name="screen_scan_add_scan_dir">Add Scan Dir</string>
+      <string name="screen_scan_ignore_tip">ignore if duration less than %s seconds</string>
+      <string name="screen_scan_begin_scan">Start Scaning</string>
+      <string name="screen_scan_add_dir">Add dir</string>   
+      <string name="screen_scan_adddir_add_str">Add</string>
+      <string name="screen_scan_adddir_goback_str">Return</string>
+      <string name="screen_scan_prompt">Prompt</string>  
+      <string name="screen_scan_right_now">No songs in the list, add some?</string>    
+      <string name="screen_scan_ok">OK</string> 
+      <string name="screen_scan_cancel">Cancel</string> 
+      <string name="screen_scan_preper">Ready to scan...</string>
+      <string formatted="false" name="screen_scan_total_songs">%s in total, %s completed</string>
+	  <string formatted="false" name="screen_scan_success_songs">Songs has been added:%s\nSongs been filtered out:%s</string>
+      <string name="screen_scan_adddir_goback_parent">Return</string>
+      <string name="screen_scan_adddir_amtplayer_tip">The main program directory need to be retained</string>
+      <string name="scan_scan_all_select_str">All selected</string>
+     <!-- screen_search_download_web_dialog --> 
+       <string name="screen_search_download_web_dialog_title">Save file?</string>
+      <string name="screen_search_download_web_dialog_ok">OK</string> 
+      <string name="screen_search_download_web_dialog_cancel">Cancel</string>  
+     <!-- screen Audio -->
+      <string name="screen_audio_playlists_num">&#x0020;playlists</string>
+      <string name="screen_audio_songs_num">&#x0020;songs</string>
+      <string name="screen_audio_singers_num">&#x0020;artists</string>
+      <string name="screen_audio_albums_num">&#x0020;albums</string>
+      <string name="screen_audio_favourites_num">&#x0020;favourites</string>
+      <string name="screen_audio_recently_num">&#x0020;Recentlys</string>
+      <!-- screen_help -->
+      <string name="screen_help_title">aMusic&#160;v</string>
+      <string name="screen_help_tv"> enjoy music, enjoy yourself !</string>
+      <string name="screen_help_tv0">User guide</string>
+      <string name="screen_help_tv1"><u>1.Music</u></string>
+      <string name="screen_help_tv2"><u>2.Sing</u></string>
+      <string name="screen_help_tv3"><u>3.Record</u></string>
+      <string name="screen_help_tv4"><u>4.Library</u></string>
+      <string name="screen_help_tv5"><u>5.Menu</u></string>
+      <string name="screen_help_tv6">Copyright</string>
+      <string name="screen_help_copyright">\t aMusic attaches great importance to the protection of intellectual property in the transmission of network, it obeys various of intellectual property laws,regulations and actively cooperate to curb piracy.\n\taMusic provides the services of online search and link, whose content is from the Internet,aMusic does not store any resources itself and will not edit or modify the content of the link as well.The result produced by the use of the service is obtained by the keyword input and in the way of non-manual.We do not guarantee the validity,the legality and the timeliness of such third party web pages, as well we do not mean we and our users have obatained the property of third-party website links.\n\tAny behavior of using aMusic must obey the following rules：\n\t1.any search and playback of music,images,text and other content must be in the purpose of proper use.\n\t2.any search and playback of the music,pictures and other materials should not be in commercial purpose.\n\tAccording to Chinese relevant laws, regulations and normative requirements,the developers of aMusic make the  measures and steps aiming at protecting the intellectual property rights of  the right people.Once you find the search and link content by aMusic violate your rights,you should tell the AM official first and then AM offical will remove the relevant contents and disconnect the links according to Chinese laws and regulations and normative documents to the government.\n\n\tMeasures and steps in details are as follows: \n\trights to notice\n\tIf any individual or entity meets the following two conditions:\n\t1.the legitimate rights is violated by the third-party sites；\n\t2.the content of the website visit in automatic retrieval method through aMusic violates the legitimate rights of the relevant people\n\tSuch individual or entity can commit the right notice to AM official in written way(by fax or mail).Right holders should sign on the paper,if the right holder is a certain organizition or institution,please affix the official seal.\n\tIn accordance with relevant laws,rights notice must contain the following information:\n\t1.the identification of rights holders,which should include at least the identity card or passport(natural persons) or organization legally registered certificate(for enterprises and other organizations).Specific contact information for rights holders,should at least include the name,mailing address,telephone number,fax and e-mail.\n\t2.if the rights holder want to commit on behalf of exercise of their right,the principals should show the material which should include the material mentioned above and rights holders\' power of attorney as well.\n\t3.copyright or other intellectual property ownership certificate.\n\t4.the proof of the infringement,include the description of the violation of intellectual property rights,the page information of infringement and third-party page URL list.\n\t5.The submitter will promise if the representation of notice is not real,the submitter will take the responsibility according to laws,which include but not limit to the compensition for the necessary expenses and attorneys\' fees.\n\tAfter receiving and verifying the material mentioned above,AM official will take some measures,of which removing the content is included,to protect the right of the right holders according to the chinese laws and relavent requirements.</string>
+      <string name="screen_help_view_content1">- Provides 9 kinds of song lists display\n\n- Provide expansion button for you to edit local songs\n\n- Provides a variety of play modes\n\n- AB repeat function\n\n- Can automatically download singers pictures and lyrics with word for word\n\n- When song is playing, choose to hide this application can show you the desktop lyrics</string>
+      <string name="screen_help_view_content2">- Provide singing with original music and singing with accompaniment\n\n- While singing, original music and accompaniment can freely switch\n\n- The synchronous lyrics display, word for word positioning\n\n- Provide function to adjust the microphone volume\n\n- Record with 44100HZ sampling rate, provide you with ultra-high recording quality\n\n- AB repeat function. Convenient to focus on learning a certain song, but do not affect the integrity and coherence of the recording\n\n- Provide wav-> mp3 transcoding tool for you to save more storage space</string>
+      <string name="screen_help_view_content3">- Play recording function\n\n- AB repeat function to facilitate you to savor your own voice</string>
+      <string name="screen_help_view_content4">- Original music, accompaniment download\n\n- Providing category search, singer search, song search\n\n- Singers and song search, enter the first letter of the Pinyin or English spelling, which can quickly locate</string>
+      <string name="screen_help_view_content5">- Scan song, add more local music\n\n- Timer, you can preset the time to let the application automatically shut down\n\n- Play mode, you can easily switch playback mode\n\n- Download Manager, view the status of the download of the song, pause the download, cancel the download, and resume the download, edit download history\n\n- Version information, check for updates, and provide upgrades function\n\n- Feedback, look forward to your comments or suggestions</string>
+        <string name="screen_audio_download_cancel">Cancel</string>
+		<string name="screen_audio_download_continue">Resume</string>
+		<string name="screen_audio_download_pause">Pause</string>
+		<string name="screen_audio_download_delete">Delete</string>
+		<string name="screen_audio_downloading">Downloading</string>
+		<string name="screen_audio_download_waiting">Waiting</string>
+		<string name="screen_audio_download_starting">Starting</string>
+		<string name="screen_audio_download_paused">paused</string>
+		<string name="screen_audio_download_finished">Finished</string>
+		<string name="screen_audio_download_unknow_size">Unknown size</string>
+		<string name="screen_audio_download_type_orginal">Origin</string>
+		<string name="screen_audio_download_type_accompany">Accompany</string>
+		<string name="screen_audio_download_orginal_finished">Origin finished</string>
+		<string name="screen_audio_download_all_finished">All finished</string>
+		<string name="screen_audio_download_not_started">Not download</string>
+		<string name="screen_audio_download_if_download_accompany">Download accompaniment</string>
+		<string name="screen_audio_download_onekey_prompt">One key download</string>
+		<string name="screen_audio_download_cannot_download_accompany">This song does not support accompany</string>
+		<string name="screen_audio_download_if_ktv">Let\'s sing?</string>
+		<string name="screen_audio_download_accompany">Download accompaniment</string>
+		<string name="screen_audio_download_play_orginal">Play original</string>
+		<string name="screen_audio_download_go_back">Return</string>
+		<string name="screen_audio_download_in">Already in download list</string>
+		<string name="screen_audio_download_fail">Download failed</string>
+		<string name="screen_audio_download_lyric_fail">Lyric download failed</string>
+		<string name="screen_download_tab_unfinished">Downloading</string>
+		<string name="screen_download_tab_finished">Download finished</string>
+	 <!-- screen_update -->
+	    <string name="screen_update_download_finished">Download finished</string>
+	    <string name="screen_update_download_error">Update package download error</string>
+		<string name="screen_update_click_to_install">Download finished, click to install</string>
+		<string name="screen_update_not_need_update">The new version is not detected</string>
+		<string name="screen_update_have_update">aMusic has a new version</string>
+		<string name="screen_update_select_to_install">New version\'s download finished, please install it</string>
+		<string name="screen_update_install_now">Update now</string>
+		<string name="screen_update_install_later">Update later</string>
+		<string name="screen_update_version">New version:</string>
+		<string name="screen_update_version_size">Size:</string>
+		<string name="screen_update_version_info">Info:</string>
+		<string name="screen_update_ok">OK</string>
+		<string name="screen_update_error">The update package signature inconsistent, please uninstall the program later installed</string>
+	<!-- screen_default_lyric_view -->
+	    <string name="screen_default_lyric_view">Enjoy music, enjoy aMusic</string>
+	    <string name="lyric_download_error"><u>Not found the lyrics, click to download</u></string>
+	    <string name="close_desktop_lyric_title">Close the Desktop Lyrics</string>
+	    <string name="close_desktop_lyric_info">Always turn off the Desktop Lyrics</string>
+	    <!-- screen_create_playlist -->
+	    <string name="screen_create_new_playlist">Create playlist</string>
+		<string name="screen_create_new_playlist_add">Add</string>
+		<string name="screen_create_new_playlist_rename">Rename</string>
+		<string name="screen_create_new_playlist_exist">Already in the playlist</string>
+		<string name="screen_create_new_addto_success">Song addto the playlist</string>
+		<string name="screen_create_new_playlist_ok">OK</string>
+		<string name="screen_create_new_playlist_cancel">Cancel</string>
+		    <!-- screen_delete_dialog -->
+	    <string name="screen_delete_dialog_msg">Sure to delete?</string>
+		<string name="screen_delete_dialog_ok">OK</string>
+		<string name="screen_delete_dialog_cancel">Cancel</string>
+		<string name="screen_delete_dialog">Delete</string>
+		<string name="screen_delete_dialog_file">Delete the local file</string>
+		    <!-- screen_check_SD -->
+	    <string name="screen_check_sd_title">Prompt</string>
+		<string name="screen_check_sd_ok">OK</string>
+		<string name="screen_check_sd_msg">Please insert the sdcard, otherwise it is impossible to use this product, click OK to exit</string>
+		<!-- screen_version-->
+		<string name="screen_version_info">This edition applies to Android2.1 and above firmware. If you use this software on other phone systems, the aMusic Team does not assume any liability for any problems that arise. This software is originally developed by aMusic Team, anyone without the team\'s authorization can\'t develop, publish or download any other software derived from this software. Use this software may lead to unpredictable risks, aMusic Team won\'t be responsible for the consequences.</string>
+		<string name="screen_version_connect">Service Call: 027-87491770  \nBusiness E-mail: player_bz@163.com \nService E-mail: player_support@163.com</string>
+		<string name="screen_version_copyright">aMusic Team</string>
+		<!-- screen_soft_setting-->
+		<string name="soft_parameters_setting">AM settings</string>
+		<string name="lyric_and_pictrue_setting">Picture and lyrics download Settings</string>
+		<string name="pictrue_download_setting">Picture download</string>
+		<string name="lyric_download_setting">Lyrics download</string>
+		<string name="pictrue_forbid_download">Never</string>
+		<string name="pictrue_always_download">Always</string>
+		<string name="pictrue_wifi_download">When using WiFi</string>
+		<string name="lyric_forbid_download">Never</string>
+		<string name="lyric_always_download">Always</string>
+		<string name="lyric_wifi_download">When using WiFi</string>
+		<string name="lashing_controll_title">Swinging the song</string>
+		<string name="lashing_controll_summary">Swinging the phone around to switch song</string>
+		<string name="desktop_lyric_setting">Desktop lyrics display</string>
+		<string name="special_lashing_controll_title">The song about swinging</string>
+		<string name="special_lashing_controll_summary">Left under on a song, right dumped a song</string>
+		<string name="sensitivity_lashing_controll_title">Swinging sensitivity</string>
+		<string name="sensitivity_lashing_controll_summary">Adjust the sensitivity of the rejection songs</string>
+		<string name="desktop_lyric_font_color_setting">Memory desktop font and color of the lyrics</string>
+		<string name="skin_fontColor_title">The font color sets</string>
+		<string name="skin_fontColor_summary">Highlight the font and normal font color settings</string>
+		<string name="download_setting">Download Settings</string>
+		<string name="accompany_download_title">Accompaniment</string>
+		<string name="accompany_download_summary">Automatic download accompaniment</string>
+		<string name="record_setting">Recording settings</string>
+		<string name="start_record_title">Save the recording</string>
+		<string name="start_record_summary">Automatically Save the recording</string>
+		<string name="sound_sync_title">The human voice sync output</string>
+		<string name="sound_sync_summary">Playback singer voice when the sound output</string>
+		<string name="sound_gain_control_title">Sound Gain adjustment</string>
+		<string name="sound_gain_control_summary">Sound expansion of multiples of the regulation</string>
+		<string name="status_bar_title">The status bar displays the application icon</string>
+		<string name="other_setting">Other settings</string>
+		<string name="auto_update_title">Automatic Updates</string>
+		<string name="auto_update_summary">Start automatically check for updates</string>
+		<string name="net_setting_title">Network settings</string>
+		<string name="net_setting_summary">Set the system network connection</string>
+		<string name="general_setting">General Settings</string>
+		<string name="advanced_setting">Advanced_Settings</string>
+		<string name="music_pause_controll_title">Unplug the headphones suspended</string>
+		<string name="music_pause_controll_summary">Unplug the headphones, the music is playing pause</string>
+		<string name="prompt_if_no_record_indatabase">This song is not in the list, please scan the song first</string>
+		<string name="lyric_foregroundColor">Foreground color</string>
+		<string name="lyric_backgroundColor">Background color</string>
+		<string name="foregroundColor">Highlight color</string>
+		<string name="backgroundColor">Ordinary color</string>
+		<!-- screen equalizer setting-->
+		<string name="screen_equalizer_settings_title">Equalizer</string>		
+		<string name="normal">Normal</string>
+		<string name="classical">Classical</string>
+		<string name="dance">Dance</string>
+	    <string name="balance">Flat</string>
+	    <string name="folk">Folk</string>
+	    <string name="heavy_metal">Heavy Metal</string>
+	    <string name="hip_hop">Hip Hop</string>
+	    <string name="jazz">Jazz</string>
+	    <string name="pop">Pop</string>
+	    <string name="rock">Rock</string>
+		<string name="custom">Custom</string>    
+		<string name="eq_setting">Equalizer setting</string>
+		<string name="reverb_setting">Reverb_setting</string>
+		<string name="large_hall">Large Hall</string>
+		<string name="large_room">Large Room</string>
+		<string name="medium_hall">Medium Hall</string>
+		<string name="medium_room">Medium Room</string>
+		<string name="none">None</string>
+		<string name="plate">Plate</string>
+		<string name="small_room">Small Room</string>
+		<!-- delete dialog -->
+		<string name="delete_propt">Prompt</string>
+		<string name="delete_sure_or_not">Delete it?</string>
+		<string name="delete_sure">Ok</string>
+		<string name="delete_cancel">Cancel</string>
+		
+		<!-- public dialog -->
+		<string name="dialog_ok">Ok</string>
+		<string name="dialog_cancel">Cancel</string>
+		
+				<!-- kmedia content empty -->
+		<string name="kmedia_content_empty_info0">Empty now,</string>
+		<string name="kmedia_content_empty_info1">click</string>
+		<string name="kmedia_content_empty_info2">\"Library\"</string>
+		<string name="kmedia_content_empty_info3">find music!</string>
+		
+		<!-- record content empty -->
+	    <string name="record_content_empty_info0">Empty now,</string>
+		<string name="record_content_empty_info1">click</string>
+		<string name="record_content_empty_info2">\"Sing\"</string>
+		<string name="record_content_empty_info3">to record!</string>
+		
+		<!-- search bar empty -->
+		<string name="search_bar_empty_info0">Please enter</string>
+		<string name="search_bar_empty_info1">the song\'</string>
+		<string name="search_bar_empty_info2">\"name\"</string>
+		<string name="search_bar_empty_info3">to download music!</string>
+		<string name="search_bar_empty_info4">the singer\'</string>
+		
+		<!-- lyric choose dialog -->
+		<string name="lyric_choose_please" >Please choose lyric</string>
+		<string name="lyric_download_tips1">Prohibit download lyrics, please change the system settings</string>
+		<string name="lyric_download_tips2">wifi is not connected, please connect to wifi</string>
+		
+		<!-- song error info -->
+		<string name="songerrorinfo_song_error">Song Error</string>
+		<string name="songerrorinfo_accompany_error">Accompany Error</string>
+		<string name="songerrorinfo_lyrics_error">Lyrics Error</string>
+		<string name="songerrorinfo_picture_error">Picture Error</string>
+		<string name="songerrorinfo_current_song">Current Song : </string>
+		<string name="songerrorinfo_dialog_title">Error List</string>
+		<string name="songerrorinfo_sendsuccess_prompt">The information you submit has been successfully sent to the server!</string>
+		<string name="songerrorinfo_sendfailed_prompt">Send failed,please check your network,and the information you submit has been saved to local file,when you start program next time,it will submit to the server automatically!</string>
+
+		<!-- notification -->
+		<string name="notification_title">Click to enter AM Music</string>
+		<string name="notification_current_song">The following music is playing:</string>
+		
+		<!-- dialog_check_signature -->
+		<string name="dialog_check_signature_title">Check the new apk</string>
+		<string name="dialog_check_signature_checking">Checking, please wait...</string>
+		<string name="dialog_check_sinature_not_match">The signature is not match, uninstall the old app, and install the new one.the location is sdcard/aMusic/package</string>
+		<string name="dialog_check_sinature_not_match_title">The signature is not match, uninstall the old app, and install the new one.</string>
+		<string name="dialog_check_sinature_not_match_info">the location is sdcard/aMusic/package</string>
+		<string name="dialog_check_signature_ok">OK</string>
+		<string name="dialog_check_signature_cancel">Cancel</string>
+		
+		<!-- ExtAudioRecorder -->
+		<string name="extaudiorecorder_info">sorry, not support record for this phone</string>
+		<!-- Song info edit -->
+		<string name="song_info_edit_not_support">sorry, not support for this format</string>
+		
+		<!-- menu share -->
+		<string name="menu_share_audio">I\'m listening music with aMusic, song name is :\t</string>
+		<string name="menu_share_kmedia">I\'m singing with aMusic, song name is :\t</string>
+		<string name="menu_share_record">I\'m listening record make by myself with aMusic, record name is :\t</string>
+		<string name="menu_share_others">I\'m using aMusic now</string>
+		<string name="menu_share_info">, and happy to share it !</string>
+		<!-- convert finished -->
+		<string name="convert_finished">Convert has finished!</string>
+	<!-- dialog_editor_lyric -->
+		<string name="editor_lyric_prompt">Prompt</string>
+		<string name="editor_lyric_info">Now begin editing lyrics？</string>
+		<string name="editor_lyric_text">Step1.Edit lyrics</string>
+		<string name="editor_lyric_time">Step2.Positioning Lyrics</string>
+		<string name="get_lyric_from_web">Get lyrics from the network</string>
+		<string name="new_make_lyric">Edit lyrics</string>
+		<string name="editor_lyric_ok">Ok</string>
+		<string name="editor_lyric_cancel">Cancel</string>
+		<string name="modify_lyric_error">Can not continue an upward adjustment in the lyrics</string>
+		<string name="lyric_is_downloading">The lyrics are downloading, please wait</string>
+		<string name="lyric_download_fail">Lyrics download failed, please edit lyrics</string>
+		<string name="lyric_songname_null">Please enter the song title</string>
+		
+		<!-- screen_create_lyric -->
+		<string name="screen_create_lyric_title">Lyrics production</string>
+		<string name="screen_lyric_speed_title">Lyrics rate positioning</string>
+		<string name="screen_lyric_speed_modify">Do you want to save the lyrics rate positioning changes？</string>
+		<string name="screen_lyric_speed_quit">Lyrics production is not completed,Whether exit?</string>
+		<string name="screen_lyric_speed_modify_yes">Yes</string>
+		<string name="screen_lyric_speed_modify_no">No</string>
+		<string name="screen_create_lyric_hint">Please enter the text to create lyrics！</string>
+		<string name="screen_create_lyric_ok">OK</string>
+		<string name="screen_create_lyric_cancel">Cancel</string>
+		<string name="screen_create_lyric_ok_info">Save Lyrics, and reposition lyrics？</string>
+		<string name="screen_create_lyric_cancel_info">Exit？</string>
+		<string name="screen_create_lyric_null">The lyrics is empty, enter the lyrics!</string>
+		<string name="screen_create_lyric_native_null">No lyrics file, please edit the lyrics!</string>
+		<string name="screen_lyric_speed_upload">Upload the lyrics?</string>
+		<string name="screen_lyric_speed_upload_error">Lyrics upload failed,Re-upload?</string>
+		<string name="screen_lyric_speed_upload_successed">Lyrics upload completed</string>
+		<string name="screen_lyric_speed_make_over">Lyrics finished, click the back key to save lyrics</string>
+		<string name="screen_audio_cannot_play">audio cannot play</string>
+		<string name="screen_audio_lyric_maker_name">lyricmaker：</string>
+		<string name="screen_lyric_make_help">instruction manual：\n\t1.Click Mode： According to the rhythm of the music, click on the corresponding word (jump word), positioning the time of each word；\n\t2.Slide Mode： For fast-paced songs, the music festival can scrape together the slide on the lyrics, thus positioning the time of each word；\nNote:\n\t-Click Finish in the line of lyrics is not allowed to click on the next line lyrics\n\t-After each word to add a terminator, you must click on the terminator, marking this one the lyrics have been positioned to complete.\n</string>
+</resources>

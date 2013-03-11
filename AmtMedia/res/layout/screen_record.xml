@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_my_record_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/screen_record_songs_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#00000000"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@drawable/screen_listview_selector"
+        android:layout_margin="@dimen/listview_layout_margin" />
+    
+        <LinearLayout
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <include layout="@layout/screen_no_items" />
+        
+    </LinearLayout>
+      
+</LinearLayout>

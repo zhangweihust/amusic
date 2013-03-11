@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popwindow_item_width"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new"/>     
+        <TextView 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/screen_audio_song_options_attributes_editInfo"
+        	android:textStyle="bold"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_title_text_size"
+        	android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+           
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:orientation="vertical"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:layout_weight="0.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_audio_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="@string/screen_audio_song_options_attributes_singer_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/audio_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:singleLine="true"
+            android:background="@drawable/screen_suggestion_feedback_edittext_bg"
+            android:textSize="@dimen/popwindow_edit_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="@drawable/custom_dialog_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:layout_weight="0.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/audio_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+			android:gravity="center|left"
+            android:singleLine="true"
+            android:text="@string/screen_audio_song_options_attributes_song_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/audio_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:singleLine="true"
+            android:background="@drawable/screen_suggestion_feedback_edittext_bg"
+            android:textSize="@dimen/popwindow_edit_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+    android:id="@+id/tv_audio_line"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="@drawable/custom_dialog_line" />
+
+    <LinearLayout
+        android:id="@+id/tv_audio_album_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:layout_weight="0.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_audio_album"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="@string/screen_audio_song_options_attributes_album_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/audio_album"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:background="@drawable/screen_suggestion_feedback_edittext_bg"
+            android:textSize="@dimen/popwindow_edit_text_size"
+            android:singleLine="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+    android:background="@drawable/custom_dialog_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:layout_weight="0.0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="@dimen/popwindow_btn_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:layout_marginRight="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/pop_audio_button_selector"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/screen_audio_song_options_attributes_edit_ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/popwindow_btn_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:layout_marginLeft="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/pop_audio_button_selector"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/screen_audio_song_options_attributes_edit_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="normal" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

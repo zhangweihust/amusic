@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:layout_weight="0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+     <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/screen_audio_song_options_open_new" />        
+     <TextView 
+            android:id="@+id/screen_equalizer_settings_options_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/screen_equalizer_settings_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_title_text_size"/>        
+    </LinearLayout>  
+    <ListView 
+        android:id="@+id/screen_equalizer_settings_options_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"    
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/screen_listview_selector"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        />   
+</LinearLayout>

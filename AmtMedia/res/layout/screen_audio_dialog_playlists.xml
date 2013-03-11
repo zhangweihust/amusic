@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audio_dialog_playlists_linearLayout01"
+    android:layout_width="@dimen/popwindow_item_width"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new"/>     
+        <TextView 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/screen_audio_dialog_playlists_title"
+        	android:textStyle="bold"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_title_text_size"
+        	android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+           
+        />
+    </LinearLayout>
+        <ListView
+            android:id="@+id/screen_audio_dialog_playlists_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/popwindow_listview_height"
+            android:layout_marginBottom="@dimen/listview_layout_margin"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/custom_dialog_line"
+            android:dividerHeight="1px"
+            android:fadingEdge="none" 
+            android:listSelector="@drawable/screen_listview_selector"
+            android:background="@drawable/custom_dialog_content_bg_90"
+            />
+</LinearLayout>

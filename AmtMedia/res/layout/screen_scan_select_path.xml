@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_scan_select_file_item"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/listview_common_height"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/listview_common_height"
+    android:orientation="horizontal"
+    android:background="@drawable/screen_list_item_selector"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/screen_scan_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/screen_scan_file_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center_vertical"
+            android:singleLine="true" 
+            android:textColor="#ffffff"
+            android:textSize="@dimen/listview_item_title_textSize" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/screen_scan_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/screen_audio_playlist_edit_checked_false"
+        android:focusable="false" />
+
+</LinearLayout>

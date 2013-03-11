@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PhoneKTVView">
+        <attr format="dimension" name="textSize" />
+    </declare-styleable>
+    <declare-styleable name="FullLyricView">
+        <attr format="dimension" name="textSize1" />
+    </declare-styleable>
+    <declare-styleable name="DesktopLyricView">
+        <attr format="dimension" name="textSize2" />
+    </declare-styleable>
+    <declare-styleable name="DefaultDesktopView">
+        <attr format="dimension" name="textSize3" />
+    </declare-styleable>
+
+</resources>

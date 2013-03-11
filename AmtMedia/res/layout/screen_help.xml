@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/screen_version_bg"
+    android:orientation="vertical" >
+	<ScrollView   
+		android:layout_width="fill_parent"   
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/version_linearLayout01_layout_marginLeft">  
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/version_linearLayout01_layout_marginRight"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/screen_help_version_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/screen_help_TextView_marginTop1"
+                android:text="@string/screen_help_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/screen_help_TextView_textSize2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                android:text="@string/screen_help_tv"
+                android:textColor="@color/white"
+                android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/screen_help_TextView_marginTop1"
+                android:text="@string/screen_help_tv0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/screen_help_TextView_textSize2" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/version_linearLayout01_layout_marginLeft"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/screen_help_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_tv1"
+                    android:textColor="@color/screen_help_TextView_color2"
+                    android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+                <TextView
+                    android:id="@+id/screen_help_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_tv2"
+                    android:textColor="@color/screen_help_TextView_color2"
+                    android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+                <TextView
+                    android:id="@+id/screen_help_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_tv3"
+                    android:textColor="@color/screen_help_TextView_color2"
+                    android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+                <TextView
+                    android:id="@+id/screen_help_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_tv4"
+                    android:textColor="@color/screen_help_TextView_color2"
+                    android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+                <TextView
+                    android:id="@+id/screen_help_tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_tv5"
+                    android:textColor="@color/screen_help_TextView_color2"
+                    android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+<!--                 <TextView
+                    android:id="@+id/screen_help_tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_tv6"
+                    android:textColor="@color/screen_help_TextView_color2"
+                    android:textSize="@dimen/screen_help_TextView_textSize1" />
+
+                <TextView
+                    android:id="@+id/screen_help_tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_tv7"
+                    android:textColor="@color/screen_help_TextView_color2"
+                    android:textSize="@dimen/screen_help_TextView_textSize1" /> -->
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/screen_help_TextView_marginTop1"
+                android:text="@string/screen_help_tv6"
+                android:textColor="@color/white"
+                android:textSize="@dimen/screen_help_TextView_textSize2" />
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/version_linearLayout01_layout_marginLeft"
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_help_TextView_marginTop2"
+                    android:text="@string/screen_help_copyright"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/screen_help_TextView_textSize3" />
+                </LinearLayout>
+        </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

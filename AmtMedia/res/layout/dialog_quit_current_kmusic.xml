@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popwindow_item_width"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new"/>     
+        <TextView 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/delete_propt"
+        	android:textStyle="bold"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_title_text_size"
+        	android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+           
+        />
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center"
+        android:background="@drawable/custom_dialog_content_bg_90">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:gravity="center"
+        android:text="@string/really_quit_this_k_music"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/popwindow_item_text_size"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+        android:background="@drawable/custom_dialog_line" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:orientation="horizontal" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_quit_kmusic_yes"
+            android:layout_width="@dimen/popwindow_btn_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:background="@drawable/pop_audio_button_selector"
+            android:gravity="center"
+            android:text="@string/really_quit_this_k_music_yes"
+            android:layout_marginRight="@dimen/dialog_hide_or_exit_button_margin_left"  
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:layout_weight="1"
+            android:textStyle="normal"
+             android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btn_quit_kmusic_no"
+            android:layout_width="@dimen/popwindow_btn_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:background="@drawable/pop_audio_button_selector"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dialog_hide_or_exit_button_margin_left"
+            android:text="@string/really_quit_this_k_music_no"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

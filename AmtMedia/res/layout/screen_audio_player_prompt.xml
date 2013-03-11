@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/audio_prompt_linearLayout"
+    android:layout_height="@dimen/audio_prompt_linearLayout_layout_height"
+    android:background="@drawable/k_mic_bg"
+    android:orientation="vertical" >
+    <TextView
+            android:id="@+id/audio_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:textSize="@dimen/audio_prompt_textSize"
+            android:ellipsize="middle"
+            android:textColor="#ffffff"
+           />
+  </RelativeLayout>

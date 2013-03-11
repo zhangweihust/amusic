@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_confirm_save_record"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new"/>     
+        <TextView 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/dialog_save_record_confirm_title"
+        	android:textStyle="bold"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/popwindow_title_text_size"
+        	android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+           
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="@dimen/dialog_confirm_save_record_layout_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/dialog_save_record_confirm_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/custom_dialog_line" />
+
+        <RadioGroup
+            android:id="@+id/btn_confirm_save_record_radio_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/btn_mp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/radioButton_layout_marginLeft"
+                android:button="@drawable/dialog_convert_radiobutton_selector"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/dialog_save_record_confirm_type1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/custom_dialog_line" />
+
+            <RadioButton
+                android:id="@+id/btn_wav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/radioButton_layout_marginLeft"
+           	android:button="@drawable/dialog_convert_radiobutton_selector"
+                android:gravity="center"
+                android:text="@string/dialog_save_record_confirm_type2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="normal" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+            android:background="@drawable/custom_dialog_line" />
+
+       <!--  <LinearLayout
+            android:layout_width="@dimen/dialog_confirm_save_record_layout_width"
+            android:layout_height="@dimen/popwindow_item_height"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_confirm_save_record_yes"
+	            android:layout_width="@dimen/confirm_save_record_button_layout_width"
+	            android:layout_height="@dimen/popwindow_btn_height"
+                android:background="@drawable/dialog_convert_btn_select"
+                android:gravity="center"
+                android:text="@string/dialog_save_record_confirm_yes"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/popwindow_item_text_size" 
+                />
+
+            <Button
+                android:id="@+id/btn_confirm_save_record_no"
+                android:layout_width="@dimen/confirm_save_record_button_layout_width"
+           		android:layout_height="@dimen/popwindow_btn_height"
+                android:background="@drawable/dialog_convert_btn_select"
+                android:gravity="center"
+                android:text="@string/dialog_save_record_confirm_no"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="bold" 
+                android:layout_marginLeft="@dimen/confirm_save_record_button_layout_marginLeft"/>
+
+            <Button
+                android:id="@+id/btn_confirm_save_record_cancel"
+	            android:layout_width="@dimen/confirm_save_record_button_layout_width"
+	            android:layout_height="@dimen/popwindow_btn_height"
+                android:background="@drawable/dialog_convert_btn_select"
+                android:gravity="center"
+                android:text="@string/dialog_save_record_confirm_cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/confirm_save_record_button_layout_marginLeft"/>
+        </LinearLayout> -->
+         <LinearLayout
+        android:layout_width="@dimen/dialog_confirm_save_record_layout_width"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:orientation="horizontal" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_confirm_save_record_yes"
+            android:layout_width="@dimen/confirm_save_record_button_layout_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:text="@string/dialog_save_record_confirm_yes"
+            android:textStyle="bold"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textColor="@color/white"
+            android:background="@drawable/pop_audio_button_selector"/>
+        <Button 
+            android:id="@+id/btn_confirm_save_record_no"
+            android:layout_width="@dimen/confirm_save_record_button_layout_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:layout_marginLeft="@dimen/dialog_hide_or_exit_button_margin_left"
+            android:text="@string/dialog_save_record_confirm_no"
+            android:textStyle="bold"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textColor="@color/white"
+            android:background="@drawable/pop_audio_button_selector"/>
+        <Button
+            android:id="@+id/btn_confirm_save_record_cancel"
+            android:layout_width="@dimen/confirm_save_record_button_layout_width"
+            android:layout_height="@dimen/popwindow_btn_height"
+            android:layout_marginLeft="@dimen/dialog_hide_or_exit_button_margin_left"
+            android:text="@string/dialog_save_record_confirm_cancel"
+            android:textSize="@dimen/popwindow_item_text_size"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/pop_audio_button_selector"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/categorysLinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/categorysLinearLayout01_layout_marginLeft"
+        android:layout_marginRight="@dimen/categorysLinearLayout01_layout_marginRight"
+        android:orientation="vertical"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:id="@+id/categorysLinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/categorysLinearLayout02_layout_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_new"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_new_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_new_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="新歌推荐"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_hkat"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_hkat_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_hkat_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_hkat_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_europe"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_europe_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_europe_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_europe_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_jask"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_jask_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_jask_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_jask_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/categorysLinearLayout02_layout_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_china"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_china_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_china_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_china_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_love"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_love_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_love_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_love_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_televition"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_television_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_televition_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_television_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/categorysLinearLayout02_layout_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_classic"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_classic_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_classic_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_classic_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/screen_search_categorys_child"
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height"
+                    android:background="@drawable/screen_search_categorys_child_selector" />
+
+                <TextView
+                    android:id="@+id/screen_search_categorys_child_text"
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/screen_search_category_item_child_name"
+                    android:textColor="@color/categorysTextView_textcolor"
+                    android:textSize="@dimen/categorysTextView_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="invisible" >
+
+                <ImageButton
+                    android:layout_width="@dimen/categorysImageButton_layout_width"
+                    android:layout_height="@dimen/categorysImageButton_layout_height" />
+
+                <TextView
+                    android:layout_width="@dimen/categorysTextView_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/screen_audio_albums_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="@dimen/listview_item_dividerHeight"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/screen_listview_selector"
+        android:layout_margin="@dimen/listview_layout_margin"/>
+   <ViewStub 
+        android:id="@+id/empty"
+        android:layout="@layout/screen_no_items"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+</LinearLayout>

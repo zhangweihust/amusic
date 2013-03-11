@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/screen_audio_favorite_song_item"
+    android:background="@drawable/screen_list_item_selector"   
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+   <TextView
+        android:id="@+id/screen_audio_favorite_song_number"
+        android:layout_width="@dimen/listview_item_songnumber_layout_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"   
+        android:textColor="#f3f2f0"
+        android:textSize="@dimen/listview_item_songnumber_textSize" />   
+   <LinearLayout
+        android:id="@+id/screen_audio_favorite_song_error"
+        android:layout_width="@dimen/listview_item_songnumber_layout_width"
+        android:gravity="center"     
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+   <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"     
+        android:src="@drawable/song_erro" 
+        android:scaleType="fitCenter"
+        />
+   </LinearLayout>  
+   <LinearLayout
+        android:id="@+id/screen_audio_favorite_songinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/screen_audio_favorite_song_name"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+	    android:ellipsize="middle" 
+	    android:gravity="center_vertical" 	   
+		android:singleLine="true" 
+		android:textColor="#f3f2f0"
+		android:textSize="@dimen/listview_item_songname_textSize" />
+    <TextView
+        android:id="@+id/screen_audio_favorite_song_duration"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+		android:singleLine="true"
+		android:ellipsize="middle"
+		android:gravity="center_vertical" 
+		android:textColor="#f3f2f0" 
+		android:textSize="@dimen/listview_item_songduration_textSize"/>
+   </LinearLayout>
+    <Button
+        android:id="@+id/screen_audio_favorite_song_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginRight="@dimen/listview_item_options_layout_marginRight"
+        android:layout_centerVertical="true"
+        android:background="@drawable/screen_audio_song_options_large" 
+        android:focusable="false"/>
+</LinearLayout>
+
+

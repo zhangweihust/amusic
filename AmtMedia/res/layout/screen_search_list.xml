@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_search_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/screen_search_filter_relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/screen_search_filter"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/search_content_layout_height"
+            android:background="@drawable/screen_search_content"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/search_content_paddingLeft"
+            android:textColor="@color/white"
+            android:textColorHint="#b1b1b1"
+            android:maxLength="20"
+            android:textSize="@dimen/search_list_item_textview_textsize" />
+
+        <Button
+            android:layout_width="@dimen/search_start_layout_width"
+            android:layout_height="@dimen/search_start_layout_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/search_start_layout_marginRight"
+            android:background="@drawable/screen_search_filter" />
+    </RelativeLayout>
+     
+    
+    <ListView
+        android:id="@+id/screen_search_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/search_list_layout_marginLeft"
+        android:layout_marginRight="@dimen/search_list_layout_marginRight"
+        android:layout_marginTop="@dimen/search_list_layout_marginTop"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/screen_listview_selector"
+        android:fadingEdge="none" />
+
+    <LinearLayout
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/search_empty_hight"
+        android:layout_marginLeft="@dimen/search_list_layout_marginLeft"
+        android:layout_marginRight="@dimen/search_list_layout_marginRight"
+        android:visibility="gone" >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/screen_no_items"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <include layout="@layout/screen_search_keyboard" />
+
+</LinearLayout>

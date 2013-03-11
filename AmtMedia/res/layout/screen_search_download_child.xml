@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/listview_common_height_download">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/listview_common_height_download"
+	    android:background="@drawable/screen_list_item_selector"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal" >
+	
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/listview_common_height_download"
+	        android:minHeight="@dimen/listview_common_height_download"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical" >
+	
+	        <LinearLayout
+	            android:id="@+id/download_info"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical"
+	            android:orientation="horizontal" >
+	
+	            <TextView
+	                android:id="@+id/download_title"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="true"
+	                android:layout_marginLeft="8dip"
+	                android:layout_marginRight="8dip"
+	                android:layout_weight="1"
+	                android:ellipsize="middle"
+	                android:gravity="center_vertical"
+	                android:textColor="#ffffffff"
+	                android:textSize="@dimen/download_name_textsize"
+	                android:singleLine="true" />
+	
+	            <TextView
+	                android:id="@+id/download_status"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dip"
+	                android:layout_marginRight="8dip"
+	                android:layout_toRightOf="@id/download_title"
+	                android:layout_weight="0"
+	                android:ellipsize="middle"
+	                android:gravity="center_vertical"
+	                android:singleLine="true"
+	                android:textColor="@android:color/secondary_text_dark"
+	                android:textSize="@dimen/download_info_textsize"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+	        </LinearLayout>
+	
+	        <SeekBar
+	            android:id="@+id/download_progress"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@id/download_info"
+	            android:layout_marginLeft="8dip"
+	            android:layout_marginRight="8dip"
+	            android:max="100"
+	            android:maxHeight="@dimen/audio_seekbar_maxHeight"
+	            android:minHeight="@dimen/audio_seekbar_maxHeight"
+	            android:progressDrawable="@drawable/seekbar_style"
+	            android:scrollbarStyle="outsideOverlay"
+	            android:thumb="@drawable/screen_audio_player_seebar_thumb"
+	            android:thumbOffset="@dimen/audio_seekbar_thumbOffset"
+	            android:focusable="false"
+	            android:visibility="gone" >
+	        </SeekBar>
+	
+	        <LinearLayout
+	            android:id="@+id/downloading_info"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/download_progress"
+	            android:layout_marginBottom="1px"
+	            android:gravity="center_vertical"
+	            android:orientation="horizontal"
+	            android:visibility="gone" >
+	
+	            <TextView
+	                android:id="@+id/download_size"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="true"
+	                android:layout_marginLeft="8dip"
+	                android:layout_marginRight="8dip"
+	                android:layout_weight="1"
+	                android:ellipsize="middle"
+	                android:gravity="center_vertical"
+	                android:singleLine="true"
+	                android:textColor="@android:color/secondary_text_dark"
+	                android:textSize="@dimen/download_info_textsize"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	            <TextView
+	                android:id="@+id/download_speed"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dip"
+	                android:layout_marginRight="8dip"
+	                android:layout_toRightOf="@id/download_title"
+	                android:layout_weight="0"
+	                android:ellipsize="middle"
+	                android:gravity="center_vertical"
+	                android:singleLine="true"
+	                android:textColor="@android:color/secondary_text_dark"
+	                android:textSize="@dimen/download_info_textsize"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+	        </LinearLayout>
+	    </RelativeLayout>
+	
+</LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popwindow_item_width"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    android:minHeight="155dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/custom_dialog_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen_audio_song_options_open_new" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="@dimen/popwindow_textviewToimgview_padding"
+            android:text="@string/editor_lyric_prompt"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_title_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/custom_dialog_content_bg_90"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="@dimen/popwindow_item_button_marginLeft"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popwindow_item_text_size" />
+
+        <TextView
+            android:id="@+id/dialog_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/kmedia_dialog_line_layout_marginBottom"
+            android:background="@drawable/custom_dialog_line"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="@dimen/popwindow_item_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:layout_width="@dimen/popwindow_btn_width"
+                android:layout_height="@dimen/popwindow_btn_height"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:layout_weight="1"
+                android:background="@drawable/pop_audio_button_selector"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:text="@string/editor_lyric_ok"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:layout_width="@dimen/popwindow_btn_width"
+                android:layout_height="@dimen/popwindow_btn_height"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:layout_weight="1"
+                android:background="@drawable/pop_audio_button_selector"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popwindow_item_text_size"
+                android:text="@string/editor_lyric_cancel"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_search_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/listview_common_height"
+    android:background="@drawable/screen_list_item_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:id="@+id/search_song_linearlayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/screen_search_song_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/search_list_item_textview_paddingLeft"
+            android:singleLine="true"
+            android:textSize="@dimen/search_list_item_textview_textsize"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/screen_search_song_item_status"
+            android:layout_width="@dimen/search_list_item_status_layout_width"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical" 
+            android:layout_marginTop="@dimen/search_list_item_textview_layout_marginTop"
+            android:paddingLeft="@dimen/search_list_item_textview_paddingLeft"
+            android:singleLine="true"
+            android:textSize="@dimen/search_list_status_textview_textsize" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/search_songs_imageview_layout_width"
+        android:layout_height="@dimen/search_songs_imageview_layout_height"
+        android:layout_weight="0"
+        android:background="@drawable/screen_search_songs_split" />
+
+    <LinearLayout
+        android:id="@+id/artist_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/screen_search_song_item_artist"
+            android:layout_width="@dimen/artist_linearLayout_layout_width"
+            android:layout_height="@dimen/artist_linearLayout_layout_height"  
+            android:background="@color/transparent"
+            android:textSize="@dimen/search_list_item_textview_textsize"
+            android:textColor="@color/white"
+            android:focusable="false"/>
+    </LinearLayout>
+
+</LinearLayout>

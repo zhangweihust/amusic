@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="@dimen/popwindow_item_width"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/screen_audio_playlist_create_title"
+        android:textSize="@dimen/popwindow_title_text_size" />
+
+    <EditText
+        android:id="@+id/screen_audio_playlist_create_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+       
+        android:maxLength="20"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/screen_audio_playlist_create_ok"
+            android:layout_width="116dp"
+            android:layout_height="35dp"
+           
+            android:text="@string/screen_audio_playlist_create_ok" 
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/screen_audio_playlist_create_cancel"
+            android:layout_width="116dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            
+            android:text="@string/screen_audio_playlist_create_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

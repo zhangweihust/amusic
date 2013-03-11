@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/screen_equalizer_settings_mode"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popwindow_item_height"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:background="@drawable/popwindow_item_bg_selector"
+        />
+</LinearLayout>

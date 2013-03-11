@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/screen_version_bg"
+    android:orientation="vertical" >
+
+    <com.amusic.media.view.SkinScrollLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollLayoutTest"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dip"
+        android:gravity="center"
+        >
+    </com.amusic.media.view.SkinScrollLayout>
+
+    <com.amusic.media.view.PageControlView
+        android:id="@+id/pageControl"
+         android:layout_weight="0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dip"
+        android:gravity="center" />
+
+</LinearLayout>

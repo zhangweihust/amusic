@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="toast_color">#ffffff</color>
+	<color name="screen_help_item_text_head">#ffffff</color>
+	<color name="screen_help_item_text_body">#3e3e3e</color>
+	<color name="screen_help_head_text">#ffffff</color>
+	<color name="screen_help_bg">#F4F4F4</color>
+	<color name="transparent">#00000000</color>
+	<color name="screen_download_progressbar_bg">#3F3E3C</color>
+	<color name="screen_download_progress">#008CFF</color>
+	<color name="screen_menu_bg">#dd000000</color>
+	<color name="screen_menu_underscore">#5298d4</color>
+	<color name="categorysTextView_textcolor">#000000</color>
+	<color name="screen_search_keyboard_bg">#222421</color>
+	<color name="screen_search_keyboard_character_color">#ffffff</color>
+	<color name="screen_help_TextView_color1">#00d1fe</color>
+	<color name="screen_help_TextView_color2">#a2d1d7</color>
+	<color name="screen_home_tab_color">#808080</color>
+	<color name="text_blue">#FF00B4FF</color>
+</resources>
